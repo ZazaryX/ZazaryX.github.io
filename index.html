@@ -3,15 +3,320 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Анимация волн</title>
-    <link rel="stylesheet" href="css/styles.css"> <!-- Подключение CSS -->
+    <title>Artyom | Cyber Sakura Realm</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /*************** СБРОС И ОСНОВЫ ***************/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #0d0d1a;
+            color: #e0e7ff;
+            font-family: 'Zen Maru Gothic', sans-serif;
+            overflow-x: hidden;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        /*************** ВИДЕО-ФОН ***************/
+        .video-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+        .video-bg video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.35;
+            filter: blur(2px);
+        }
+
+        /*************** ЛЕПЕСТКИ САКУРЫ ***************/
+        .petals {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+        }
+        .petal {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background: url('https://i.imgur.com/5K5Xz8m.png') no-repeat center/contain;
+            opacity: 0.5;
+            animation: drift linear infinite;
+        }
+        @keyframes drift {
+            0% {
+                transform: translateY(-10vh) rotate(0deg);
+                opacity: 0.5;
+            }
+            100% {
+                transform: translateY(110vh) translateX(20vw) rotate(720deg);
+                opacity: 0;
+            }
+        }
+
+        /*************** КОНТЕЙНЕР ***************/
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 50px 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+
+
+        /*************** ХЕДЕР И ЗАГОЛОВКИ ***************/
+        header {
+            text-align: center;
+            padding: 80px 0;
+            animation: glitch 2s linear infinite;
+        }
+        header h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 3em;
+            color: #ff5e7d;
+            letter-spacing: 3px;
+            text-shadow: 0 0 15px #ff5e7d, 0 0 30px #629bff;
+        }
+        header p {
+            font-size: 1.4em;
+            color: #c2d9ff;
+            margin-top: 10px;
+            text-shadow: 0 0 10px rgba(98, 155, 255, 0.5);
+            position: relative;
+            display: inline-block;
+        }
+        header p::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #629bff, transparent);
+            animation: scanLine 2s infinite;
+        }
+
+        h2 {
+            font-family: 'Orbitron', sans-serif;
+            color: #ff5e7d;
+            font-size: 1.9em;
+            margin-bottom: 30px;
+            text-shadow: 0 0 12px #ff5e7d, 0 0 20px #629bff;
+            position: relative;
+        }
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 50%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #ff5e7d, transparent);
+            animation: scanLine 1.5s infinite;
+        }
+
+        /*************** АНИМАЦИИ ЛИНИЙ ***************/
+        @keyframes scanLine {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+
+        /*************** ТЕКСТ И ЕГО СВЕТ ***************/
+        p {
+            line-height: 1.7;
+            color: #d9e0ff;
+            text-shadow: 0 0 5px rgba(98, 155, 255, 0.5), 0 0 10px rgba(98, 155, 255, 0.3);
+            position: relative;
+        }
+        p::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #629bff, transparent);
+            animation: scanLine 3s infinite;
+        }
+
+        /*************** СЕКЦИИ: КИБЕРПАНК-УГЛЫ И ГЛИТЧ ***************/
+        section {
+            margin: 60px 0;
+            padding: 40px;
+            position: relative;
+            /* Срезаем углы при помощи clip-path */
+            clip-path: polygon(
+                0 10px,
+                10px 0,
+                calc(100% - 10px) 0,
+                100% 10px,
+                100% calc(100% - 10px),
+                calc(100% - 10px) 100%,
+                10px 100%,
+                0 calc(100% - 10px)
+            );
+            background: rgba(10, 10, 30, 0.7);
+            border: 2px solid #ff5e7d;
+            box-shadow: 0 0 10px #ff5e7d, 0 0 20px #629bff;
+            animation: glitchSection 3s linear infinite;
+            transition: transform 0.2s ease;
+        }
+        section:hover {
+            transform: translateY(-5px);
+        }
+
+        /*************** СКИЛЛЫ И КОНТАКТЫ ***************/
+        .skills, .contact {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .skill-badge, .contact-link {
+            position: relative;
+            background: linear-gradient(45deg, rgba(255, 94, 125, 0.2), rgba(98, 155, 255, 0.2));
+            padding: 12px 30px;
+            border: 2px solid #ff5e7d;
+            border-radius: 8px;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.1em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            /* Уменьшенное свечение: */
+            box-shadow: 0 0 5px #ff5e7d, 0 0 10px #ff5e7d, inset 0 0 5px rgba(255, 94, 125, 0.5);
+            animation: neonPulse 1.5s infinite alternate, floatIn 0.8s ease-out forwards;
+            transition: all 0.3s ease;
+        }
+        /* Сдвигаем анимации для прикольного эффекта */
+        .skill-badge:nth-child(1), .contact-link:nth-child(1) { animation-delay: 0.1s; }
+        .skill-badge:nth-child(2), .contact-link:nth-child(2) { animation-delay: 0.2s; }
+        .skill-badge:nth-child(3), .contact-link:nth-child(3) { animation-delay: 0.3s; }
+        .skill-badge:nth-child(4), .contact-link:nth-child(4) { animation-delay: 0.4s; }
+        .skill-badge:nth-child(5), .contact-link:nth-child(5) { animation-delay: 0.5s; }
+
+        .skill-badge:hover, .contact-link:hover {
+            background: linear-gradient(45deg, rgba(98, 155, 255, 0.4), rgba(255, 94, 125, 0.4));
+            border-color: #629bff;
+            box-shadow: 0 0 8px #629bff, 0 0 15px #629bff, inset 0 0 5px rgba(98, 155, 255, 0.5);
+            transform: scale(1.05);
+        }
+
+        a {
+            color: #ff5e7d;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #629bff;
+        }
+
+        /*************** ДОП АНИМАЦИИ ***************/
+        @keyframes neonPulse {
+            0% {
+                box-shadow: 0 0 5px #ff5e7d, 0 0 10px #ff5e7d, inset 0 0 5px rgba(255, 94, 125, 0.5);
+            }
+            100% {
+                box-shadow: 0 0 8px #ff5e7d, 0 0 15px #ff5e7d, inset 0 0 8px rgba(255, 94, 125, 0.5);
+            }
+        }
+        @keyframes floatIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+    </style>
 </head>
 <body>
-    <section>
-        <div class='air air1'></div>
-        <div class='air air2'></div>
-        <div class='air air3'></div>
-        <div class='air air4'></div>
-    </section>
+    <!-- ВИДЕО-ФОН -->
+    <div class="video-bg">
+        <video autoplay muted loop playsinline>
+            <source src="cyber_sakura.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- ЛЕПЕСТКИ САКУРЫ -->
+    <div class="petals">
+        <div class="petal" style="left: 5%; animation-duration: 6s;"></div>
+        <div class="petal" style="left: 15%; animation-duration: 8s;"></div>
+        <div class="petal" style="left: 25%; animation-duration: 7s;"></div>
+        <div class="petal" style="left: 35%; animation-duration: 9s;"></div>
+        <div class="petal" style="left: 45%; animation-duration: 6.5s;"></div>
+        <div class="petal" style="left: 55%; animation-duration: 7.5s;"></div>
+        <div class="petal" style="left: 65%; animation-duration: 8.5s;"></div>
+        <div class="petal" style="left: 75%; animation-duration: 7s;"></div>
+    </div>
+
+    <!-- ОСНОВНОЙ КОНТЕЙНЕР -->
+    <div class="container">
+        <header>
+            <h1>こんにちは | Cyber Sakura Realm</h1>
+            <p>Artyom - C# Developer | Reverse Engineer | Anime Artist</p>
+        </header>
+
+        <!-- СЕКЦИЯ ABOUT -->
+        <section id="about">
+            <h2>自己紹介 - About Me</h2>
+            <p>Привет, я Артём, 16 лет, из России. Люблю писать код на C#, исследовать программы через реверс-инжиниринг и создавать аниме-арт под вдохновением цветущей сакуры.</p>
+        </section>
+
+        <!-- СЕКЦИЯ SKILLS -->
+        <section id="skills">
+            <h2>スキル - Skills</h2>
+            <div class="skills">
+                <span class="skill-badge">C#</span>
+                <span class="skill-badge">C++</span>
+                <span class="skill-badge">Assembler</span>
+                <span class="skill-badge">IDA Pro</span>
+                <span class="skill-badge">Clip Studio Paint</span>
+            </div>
+        </section>
+
+        <!-- СЕКЦИЯ EXPERIENCE -->
+        <section id="experience">
+            <h2>経験 - Experience</h2>
+            <p>Работал над взломом игр, таких как <i>RimWorld</i> и <i>Far Cry 6</i>. Сейчас участвую в разработке <a href="https://northmine.ru">NorthMine.ru</a> — сервера с уникальной атмосферой.</p>
+        </section>
+
+        <!-- СЕКЦИЯ CONTACT -->
+        <section id="contact">
+            <h2>連絡 - Connect</h2>
+            <div class="contact">
+                <a href="https://discord.com/users/zazaryxs" class="contact-link">Discord</a>
+                <a href="https://t.me/ZazaryXS" class="contact-link">Telegram</a>
+                <a href="mailto:zazaryxs@gmail.com" class="contact-link">Email</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- СКРИПТ ДЛЯ ДОПОЛНИТЕЛЬНЫХ ЛЕПЕСТКОВ -->
+    <script>
+        const petalsContainer = document.querySelector('.petals');
+        for (let i = 0; i < 15; i++) {
+            const petal = document.createElement('div');
+            petal.classList.add('petal');
+            petal.style.left = `${Math.random() * 100}%`;
+            petal.style.animationDuration = `${6 + Math.random() * 4}s`;
+            petal.style.animationDelay = `${Math.random() * 5}s`;
+            petalsContainer.appendChild(petal);
+        }
+    </script>
 </body>
 </html>
