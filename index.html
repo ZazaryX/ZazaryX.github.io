@@ -657,6 +657,7 @@
     background: rgba(13, 13, 26, 0.8);
     border: 2px solid;
     z-index: 2;
+    backface-visibility: hidden;
 }
 
 .contact-card-back {
@@ -682,7 +683,6 @@
         .contact-card-back {
             background: linear-gradient(45deg, var(--primary), var(--secondary));
             transform: rotateY(180deg);
-            opacity: 0;
         }
         
         .contact-card i {
@@ -1008,27 +1008,23 @@
                     <div class="contact-card-front">
                         <i class="fab fa-discord"></i>
                         <h3>Discord</h3>
-                    </div>
-                    <div class="contact-card-back">
-                        <a href="https://discord.com/users/zazaryxs" target="_blank">@zazaryxs</a>
+                        <h3>@zazaryxs<h3>
                     </div>
                 </div>
                 <div class="contact-card">
                     <div class="contact-card-front">
                         <i class="fab fa-telegram"></i>
                         <h3>Telegram</h3>
+                        <h3>@ZazaryXS</h3>
                     </div>
                     <div class="contact-card-back">
-                        <a href="https://t.me/ZazaryXS" target="_blank">@ZazaryXS</a>
                     </div>
                 </div>
                 <div class="contact-card">
                     <div class="contact-card-front">
                         <i class="far fa-envelope"></i>
                         <h3>Email</h3>
-                    </div>
-                    <div class="contact-card-back">
-                        <a href="/cdn-cgi/l/email-protection#1b617a617a696263685b7c767a727735787476">@zazaryxs</a>
+                        <h3>zazaryxs@gmail.com<h3>
                     </div>
                 </div>
             </div>
@@ -1163,14 +1159,6 @@ for (let i = 0; i < petalCount; i++) {
                 });
             });
         });
-        // Add this to your JavaScript section
-        const contactCards = document.querySelectorAll('.contact-card');
-
-contactCards.forEach(card => {
-    card.addEventListener('click', () => {
-        card.classList.toggle('flipped');
-    });
-});
     </script>
 <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'928409656ccf673f',t:'MTc0MzMwMDI3MC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'92844b373bf1458f',t:'MTc0MzMwMjk2Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
