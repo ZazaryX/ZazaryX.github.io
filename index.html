@@ -133,29 +133,48 @@
         
         /* ЛЕПЕСТКИ САКУРЫ */
         .petals {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: -1;
-        }
-        
-        .petal {
-            position: absolute;
-            width: 12px;
-            height: 12px;
-            background: url('https://i.imgur.com/5K5Xz8m.png') no-repeat center/contain;
-            opacity: 0.6;
-            animation: drift linear infinite;
-            filter: drop-shadow(0 0 3px rgba(255, 94, 125, 0.5));
-        }
-        
-        @keyframes drift {
-            0% { transform: translateY(-10vh) rotate(0deg); opacity: 0.6; }
-            100% { transform: translateY(110vh) translateX(20vw) rotate(720deg); opacity: 0; }
-        }
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.petal {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: var(--primary);
+    border-radius: 150% 0 150% 0;
+    transform: rotate(45deg);
+    opacity: 0.6;
+    animation: drift linear infinite;
+    filter: drop-shadow(0 0 3px rgba(255, 94, 125, 0.5));
+}
+
+.petal::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.5), transparent);
+    border-radius: 150% 0 150% 0;
+}
+
+@keyframes drift {
+    0% { 
+        transform: translateY(-10vh) rotate(0deg); 
+        opacity: 0.6; 
+    }
+    100% { 
+        transform: translateY(110vh) translateX(20vw) rotate(720deg); 
+        opacity: 0; 
+    }
+}
 
         /* СЕТКА */
         .grid-pattern {
@@ -1030,18 +1049,29 @@
     <script>
         // Creating sakura petals
         const petalsContainer = document.getElementById('petals');
-        const petalCount = 25;
-        
-        for (let i = 0; i < petalCount; i++) {
-            const petal = document.createElement('div');
-            petal.classList.add('petal');
-            petal.style.left = `${Math.random() * 100}%`;
-            petal.style.width = `${8 + Math.random() * 8}px`;
-            petal.style.height = `${8 + Math.random() * 8}px`;
-            petal.style.animationDuration = `${6 + Math.random() * 7}s`;
-            petal.style.animationDelay = `${Math.random() * 5}s`;
-            petalsContainer.appendChild(petal);
-        }
+const petalCount = 5;
+
+for (let i = 0; i < petalCount; i++) {
+    const petal = document.createElement('div');
+    petal.classList.add('petal');
+    
+    petal.style.left = `${Math.random() * 100}%`;
+    
+    const petalSize = 8 + Math.random() * 8;
+    petal.style.width = `${petalSize}px`;
+    petal.style.height = `${petalSize}px`;
+    
+    petal.style.animationDuration = `${6 + Math.random() * 7}s`;
+    petal.style.animationDelay = `${Math.random() * 5}s`;
+    
+    petal.style.transform = `rotate(${Math.random() * 360}deg)`;
+    
+    const hueShift = Math.random() * 20;
+    const lightness = 70 + Math.random() * 15;
+    petal.style.background = `hsl(${342 + hueShift}, 100%, ${lightness}%)`;
+    
+    petalsContainer.appendChild(petal);
+}
 
         // Navigation on scroll
         const navbar = document.getElementById('navbar');
