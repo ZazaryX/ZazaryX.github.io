@@ -616,6 +616,28 @@
             background: var(--secondary);
         }
 
+        @media (max-width: 900px) {
+    .timeline::before {
+        display: none;
+    }
+    
+    .timeline-item { 
+        width: 100%; 
+        left: 0; 
+        margin: 30px 0; 
+        border-left: 3px solid var(--primary);
+    }
+    .timeline-item:nth-child(even) { 
+        left: 0; 
+        border-right: none;
+        border-left: 3px solid var(--secondary);
+    }
+    
+    .timeline-item::before {
+        display: none;
+    }
+}
+
         /* КОНТАКТЫ: 3D КАРТОЧКИ */
         .contact {
             display: grid;
