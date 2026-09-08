@@ -1,0 +1,654 @@
+{
+  "lang": "zh",
+  "htmlLang": "zh-CN",
+  "nav": {
+    "works": "作品",
+    "about": "关于",
+    "faq": "常见问题",
+    "contact": "联系",
+    "price": "价格"
+  },
+  "titles": {
+    "portfolio": "作品集",
+    "about": "关于我",
+    "value": "我能提供什么",
+    "skills": "技能",
+    "experience": "经历",
+    "uses": "工具",
+    "desk": "工作环境",
+    "faq": "常见问题",
+    "contact": "联系方式",
+    "ready": "已完成",
+    "wiphead": "进行中",
+    "price": "价格"
+  },
+  "hero": {
+    "kicker": "Zazary Realm",
+    "tag": "开发者 · 艺术家 · 技术总监",
+    "cta": "查看作品"
+  },
+  "preloader": {
+    "kicker": "Zazary Realm",
+    "status": "加载中"
+  },
+  "fx": {
+    "title": "要优化效果吗?",
+    "sub": "关闭较重的动画以提升性能",
+    "optimize": "优化",
+    "keep": "保持原样",
+    "restoreTitle": "要恢复效果吗?",
+    "restoreSub": "重动画已关闭。你可以重新打开。",
+    "stay": "保持关闭",
+    "restore": "恢复"
+  },
+  "footer": "© 2026 Artyom | Zazary Realm. All rights reserved.",
+  "footerLinks": {
+    "email": "邮件",
+    "telegram": "电报",
+    "discord": "Discord",
+    "github": "GitHub"
+  },
+  "skip": "跳到正文",
+  "openMenu": "菜单",
+  "filters": {
+    "all": "全部",
+    "gfx": "GFX",
+    "animation": "动画",
+    "three": "3D",
+    "utilities": "工具"
+  },
+  "portfolio": {
+    "lead": "先看已完成作品。点击任意一件可以放大查看 — 附制作说明。",
+    "stats": "7件已上线 · 2026 归档",
+    "hint": "点击已上线卡片 — 图片放大,下方显示制作过程",
+    "cta": "委托 / 联系我",
+    "view": "查看",
+    "statusLive": "已上线",
+    "statusWIP": "进行中",
+    "statusQueued": "排队中",
+    "soonWIP": "制作中",
+    "soonQ": "待",
+    "empty": "这里还没有作品 — 稍后再来看看"
+  },
+  "value": {
+    "lead": "我真正能帮上的事 — 不是技能堆砌。",
+    "items": [
+      {
+        "t": "技术总监",
+        "b": "架构、性能、插件。负责项目从启动到交付的整条技术线。",
+        "icon": "fa-solid fa-cubes-stacked"
+      },
+      {
+        "t": "动效与 GFX",
+        "b": "Steam 循环、图层动画、运动中的插画。角色为主,清晰导出。",
+        "icon": "fa-solid fa-wand-magic-sparkles"
+      },
+      {
+        "t": "系统与逆向",
+        "b": "C++、WinAPI、IDA、Cheat Engine。从底层读二进制和引擎。",
+        "icon": "fa-solid fa-magnifying-glass-chart"
+      },
+      {
+        "t": "世界与材质",
+        "b": "Blender、Goo Engine、风格化 3D。正在学习,已经进入流程。",
+        "icon": "fa-solid fa-panorama"
+      }
+    ]
+  },
+  "skillGroups": {
+    "languages": "语言",
+    "systems": "系统与逆向",
+    "realtime": "实时与引擎",
+    "image": "图像与身份",
+    "motion": "动态与世界"
+  },
+  "skillCopy": {
+    "cpp": "底层系统、性能。",
+    "csharp": "Unity、工具、.NET。",
+    "python": "自动化与脚本。",
+    "asm": "x86/x64、逆向工作流。",
+    "html": "纯前端。",
+    "winapi": "Windows 内部。",
+    "ida": "静态二进制分析。",
+    "cheatengine": "动态内存、运行时。",
+    "imgui": "调试 UI、自动化。",
+    "opengl": "自研渲染器、着色器。",
+    "unity": "原型、场景。",
+    "photoshop": "GFX、合成、贴图。",
+    "clipstudio": "插画、角色。",
+    "design": "身份、字体、构图。",
+    "blender": "风格化世界、3D 动画。",
+    "aftereffects": "动效、FX、剪辑。",
+    "animation": "循环、FX、角色动作。"
+  },
+  "experience": {
+    "csharp": {
+      "date": "2020",
+      "title": "第一个 C# 项目"
+    },
+    "unity": {
+      "date": "2021",
+      "title": "Unity 与 C# - 首批游戏"
+    },
+    "blender": {
+      "date": "2022",
+      "title": "Blender - 3D 与游戏开发"
+    },
+    "cpp": {
+      "date": "2023",
+      "title": "C++ 与系统编程"
+    },
+    "reverse": {
+      "date": "2024",
+      "title": "逆向工程"
+    },
+    "opengl": {
+      "date": "2024",
+      "title": "OpenGL / GLSL - 底层渲染"
+    },
+    "design": {
+      "date": "2025",
+      "title": "设计与 GFX 流水线"
+    },
+    "animation": {
+      "date": "2025",
+      "title": "2D 与 3D 动画 - Blender / AE"
+    },
+    "drawing": {
+      "date": "2025 - 至今",
+      "title": "动漫风格 - 学习中"
+    },
+    "website": {
+      "date": "2025",
+      "title": "本站 - vanilla JS"
+    },
+    "northmine": {
+      "date": "2025",
+      "title": "northmine.ru - 开发"
+    },
+    "live2d": {
+      "date": "2026 - 至今",
+      "title": "Live2D - 角色绑定与动画"
+    },
+    "maya": {
+      "date": "2026 - 至今",
+      "title": "Autodesk Maya - 学习中"
+    },
+    "ta": {
+      "date": "2026 - 至今",
+      "title": "技术美术 (Unity、Maya、Blender)"
+    },
+    "noxyrium": {
+      "date": "2026 - 至今",
+      "title": "Noxyrium - 技术总监"
+    }
+  },
+  "uses": {
+    "lead": "桌上的工具栈 — 真正打开的软件。",
+    "create": {
+      "h": "创作",
+      "items": [
+        "Blender",
+        "Goo Engine",
+        "After Effects",
+        "Photoshop",
+        "Clip Studio Paint"
+      ],
+      "icon": "fa-solid fa-palette",
+      "icons": {
+        "Blender": "fa-brands fa-blender",
+        "Goo Engine": "fa-solid fa-shapes",
+        "After Effects": "fa-solid fa-photo-film",
+        "Photoshop": "fa-solid fa-image",
+        "Clip Studio Paint": "fa-solid fa-pen-nib"
+      }
+    },
+    "code": {
+      "h": "代码",
+      "items": [
+        "C++",
+        "C#",
+        "Python",
+        "原生 HTML/CSS/JS"
+      ],
+      "icon": "fa-solid fa-code",
+      "icons": {
+        "C++": "fa-solid fa-memory",
+        "C#": "fa-brands fa-microsoft",
+        "Python": "fa-brands fa-python",
+        "原生 HTML/CSS/JS": "fa-solid fa-layer-group"
+      }
+    },
+    "reverse": {
+      "h": "逆向",
+      "items": [
+        "IDA Pro",
+        "Cheat Engine"
+      ],
+      "icon": "fa-solid fa-magnifying-glass",
+      "icons": {
+        "IDA Pro": "fa-solid fa-magnifying-glass-chart",
+        "Cheat Engine": "fa-solid fa-wrench"
+      }
+    },
+    "runtime": {
+      "h": "运行时",
+      "items": [
+        "Unity",
+        "OpenGL / GLSL"
+      ],
+      "icon": "fa-solid fa-cube",
+      "icons": {
+        "Unity": "fa-brands fa-unity",
+        "OpenGL / GLSL": "fa-solid fa-cubes"
+      }
+    }
+  },
+  "hw": {
+    "lead": "工作环境 — 规格清单,不是产品推销。",
+    "items": [
+      {
+        "k": "cpu",
+        "v": "Intel Core i5-10400F"
+      },
+      {
+        "k": "内存",
+        "v": "32 GB"
+      },
+      {
+        "k": "gpu",
+        "v": "NVIDIA GeForce RTX 4060 8 GB"
+      },
+      {
+        "k": "存储",
+        "v": "1 TB SSD"
+      },
+      {
+        "k": "显示器",
+        "v": "1920×1080 · 60 Hz"
+      },
+      {
+        "k": "系统",
+        "v": "Windows 11 Pro"
+      },
+      {
+        "k": "键盘",
+        "v": "Ajazz AK820 Pro"
+      },
+      {
+        "k": "鼠标",
+        "v": "Ajazz AJ179 Pro"
+      },
+      {
+        "k": "手绘板",
+        "v": "XPPen Deco 640"
+      }
+    ]
+  },
+  "faq": {
+    "lead": "简短直接,详细内容在电报上。",
+    "items": [
+      {
+        "q": "怎么称呼你?",
+        "a": "Artyom (zazary)。"
+      },
+      {
+        "q": "你做什么的?",
+        "a": "Steam 美术、2D/3D 设计、软件开发 (c++, c#, python, nasm)、逆向工程。"
+      },
+      {
+        "q": "作品集在哪里?",
+        "a": "就是本站 — zazaryx.github.io。点开任意作品,制作过程和成品就在下方。"
+      },
+      {
+        "q": "怎么联系?",
+        "a": "电报是主通道。邮件用于长线沟通或合同。通常 2-6 小时内回复。一整天没回就再戳我一下。"
+      },
+      {
+        "q": "时区?",
+        "a": "UTC+7 (莫斯科+4 小时,新西伯利亚)。"
+      },
+      {
+        "q": "怎么付款?",
+        "a": "海外:DonateAlerts。俄罗斯 / CIS 地区:也可通过 СБП(快速支付系统)或银行卡支付。开工前 50% 预付款,验收后付清余款。无预付款不开始。"
+      },
+      {
+        "q": "排期与交付?",
+        "a": "下午和周末接单为主。准确工期在看完需求后告知。"
+      },
+      {
+        "q": "工作流程?",
+        "a": "我会分享中间阶段(草图、3D 草稿、粗剪、软件构建),一起把控方向。"
+      },
+      {
+        "q": "修改怎么办?",
+        "a": "需求内的合理修改免费。整体重做或重新构思另收费。"
+      },
+      {
+        "q": "需要我提供什么?",
+        "a": "清晰的需求,以及参考/示例(设计/3D 方向)或技术任务说明(软件开发)。"
+      },
+      {
+        "q": "怎么拿到成品?",
+        "a": "最终动图 / 静态文件(.gif、.png、.mp4 — Steam 优化),或 3D 渲染/源文件,或可执行软件(.exe,可议源)。尾款付清后转让版权。"
+      },
+      {
+        "q": "取消怎么办?",
+        "a": "开工后取消,预付款不退(已消耗工时的成本)。"
+      },
+      {
+        "q": "不接什么活?",
+        "a": "网游(不为网游做外挂/Mod)、诈骗项目、以及我自己无法认同的活。"
+      }
+    ],
+    "price": {
+      "note": "具体价格取决于复杂度、范围与工期(明天要+30-50%)。",
+      "currencyNote": "价格为参考。最终报价以看完需求后为准。",
+      "design": {
+        "title": "设计与 Steam 美术",
+        "kanji": "画",
+        "items": [
+          {
+            "name": "静态头像 / 横幅 / 预览",
+            "price": "from 500 rub"
+          },
+          {
+            "name": "动效 Steam 美术(重动画、精细、切片图层)",
+            "price": "from 1 500 rub"
+          },
+          {
+            "name": "Steam 个人页全套(交钥匙)",
+            "price": "from 4 000 rub"
+          }
+        ]
+      },
+      "threeD": {
+        "title": "3D 图形与合成",
+        "kanji": "界",
+        "note": "我正在积极扩充 3D 作品集,因此当前定价。",
+        "items": [
+          {
+            "name": "融入 2D 设计/美术的 3D 元素",
+            "price": "from 1 000 rub"
+          },
+          {
+            "name": "3D 场景搭建与渲染(产品、环境)",
+            "price": "from 1 500 rub"
+          },
+          {
+            "name": "复杂 3D 场景 + 后期 / 动画",
+            "price": "from 2 500 rub"
+          }
+        ]
+      },
+      "dev": {
+        "title": "软件开发 (c++, c#, python, nasm)",
+        "kanji": "剑",
+        "items": [
+          {
+            "name": "脚本 / 解析器 / 自动点击器 (python)",
+            "price": "from 1 000 rub"
+          },
+          {
+            "name": "Telegram / Discord 机器人",
+            "price": "from 1 500 rub"
+          },
+          {
+            "name": "工具 / GUI 应用 (c++, c#)",
+            "price": "from 2 000 rub"
+          },
+          {
+            "name": "底层工具 / 软件 (nasm / c++)",
+            "price": "from 4 000 rub"
+          }
+        ]
+      },
+      "reverse": {
+        "title": "逆向工程与 Mod",
+        "kanji": "道",
+        "items": [
+          {
+            "name": "程序转储 / 脱壳 / 分析",
+            "price": "from 2 000 rub"
+          },
+          {
+            "name": "离线游戏修改器 / 作弊",
+            "price": "from 3 000 rub"
+          }
+        ]
+      }
+    }
+  },
+  "contact": {
+    "lead": "电报优先。喜欢邮件线程也可以。",
+    "cta": "聊一个项目",
+    "wechat": "wechat",
+    "wechatHint": "扫码添加",
+    "wechatTitle": "扫码在 wechat 上加我",
+    "wechatIdLabel": "Wechat ID",
+    "wechatCopy": "复制 Wechat ID",
+    "wechatCopied": "已复制",
+    "tgGroup": "电报频道",
+    "tgGroupDesc": "分享生活和近况的公开频道",
+    "emailHint": "点击打开",
+    "emailCopied": "已复制！",
+    "emailTitle": "发邮件",
+    "emailIdLabel": "邮箱",
+    "emailCopy": "复制邮箱",
+    "emailOpen": "在邮件应用中打开",
+    "emailHintModal": "复制地址或在邮件应用中打开"
+  },
+  "modal": {
+    "fwTask": "任务",
+    "fwFlow": "工作流",
+    "fwLessons": "心得",
+    "fwProblem": "问题",
+    "fwTakeaway": "收获",
+    "zoomHint": "点击关闭"
+  },
+  "aboutText": "<p>Artyom(zazary)— <strong>技术总监、艺术家、软件开发</strong>。目前在俄罗斯西伯利亚的<strong>noxyrium</strong> Minecraft 服务器项目担任技术负责人。</p><p>写了 10 年以上软件,现在把重点放在设计与 3D 上。用 Blender、After Effects、Photoshop、Clip Studio Paint 同时做 2D 与 3D。正在通过 Goo Engine 学习风格化 3D。</p><p>需要视频、GFX、动画、Steam 美术,或者定制软件 — 欢迎联系。</p>",
+  "experienceHtml": {
+    "csharp": "<p>第一个正经的 <strong>C#</strong> 项目。教我 OOP、async、托管运行时究竟是什么的语言。从控制台应用和小工具起步。</p>",
+    "unity": "<p>用 <strong>Unity</strong> 和 C# 做了首批可玩的游戏。掌握了场景结构、Prefab、协程、资源管线。发布了几个小原型。</p>",
+    "blender": "<p>为了 3D 建模、雕刻和基础游戏开发学了 <strong>Blender</strong>。做了第一批环境，学会了硬表面建模。奠定了所有 3D 工作的基础。</p>",
+    "cpp": "<p>用 <strong>C++</strong> 和系统编程下沉到低层。内存管理、构建系统、真正接触硬件的代码。后来直接喂进了引擎工作。</p>",
+    "reverse": "<p>逆向工程 - 读二进制、画结构、写反汇编相关的工具。锻炼出来的调试直觉在之后所有工作中都派上用场。</p>",
+    "opengl": "<p>用现代 <strong>OpenGL</strong>、glfw、glad、glm 构建底层 3D 渲染引擎。<strong>GLSL</strong> 自定义顶点和片段着色器、MVP 流水线、光照、几何体。技术美术的路从这里过。</p>",
+    "design": "<p>贯穿视觉识别、UI 构成、字体设计、品牌化的完整设计实践。用 Photoshop、After Effects、Blender 做头像、GFX 资源、缩略图、宣传素材。也在尝试用动效做动态视觉内容。</p>",
+    "animation": "<p>2D 和 3D 双线原创动画。在 <strong>Blender</strong> 里做完整的角色/道具绑定、关键帧动画、电影感渲染。在 <strong>After Effects</strong> 里做分层、合成、动态图形和片头。</p>",
+    "drawing": "<p>学画动漫风格。人体、动态、色彩、风格化。主力工具 <strong>Clip Studio Paint</strong>，Photoshop 辅助处理。一直在练人物速写和背景。</p>",
+    "live2d": "<p>研究 <strong>Live2D</strong> 的角色绑定与动画 - 虚拟主播和抽卡工作流用的格式。正在围绕 Toji 角色做一份作品 (见作品集 <em>toji 2d</em>)。</p>",
+    "website": "<p>用纯 HTML、CSS、JavaScript(无框架)从零设计并开发了这个作品集站点。视差视频层、语言切换、樱花、自定义光标、特效开关。既是上线作品集,也是纯前端的实验室。</p>",
+    "northmine": "<p>作为开发者参与 <strong>northmine.ru</strong> - Minecraft 服务器项目。服务器端脚本、配置、小插件。上过生产,然后转去做 <em>noxyrium</em>。</p>",
+    "maya": "<p>正在把 <strong>Autodesk Maya</strong> 做成 Blender 和 After Effects 之外的第三个 3D 软件。重心放在工业级绑定、角色动画和工作室流水线上 - 这样作品集的 3D 作品能按专业工作流交付。</p>",
+    "ta": "<p>在 <strong>Unity、Maya、Blender</strong> 三个软件上学习做<strong>技术美术</strong>。用 <strong>GLSL 和 HLSL</strong> 写自定义着色器,搭渲染流水线,并通过 <strong>Maya 的 Python 脚本</strong> 和 <strong>Blender 插件</strong>(geometry nodes、bpy、资产批处理、导出管线)把重复劳动自动化。代码与美术之间的桥,以及那些没人想手动点过去的枯燥部分。</p>",
+    "noxyrium": "<p>担任 <strong>Noxyrium</strong> 的技术总监 - 一个在开发中的氛围型 Minecraft 服务器。完整的技术方向:服务器架构、性能优化、自定义插件、基础设施。统筹技术团队。</p>"
+  },
+  "projects": {
+    "flourite": {
+      "title": "Flourite",
+      "desc": "Arknights:Endfield — 把 Flourite 做成细节满满的 Steam 循环。画布上的动插画。",
+      "tag": "动画",
+      "kanji": "剑",
+      "status": "live",
+      "video": "portfolio/sfrayss_1.webm",
+      "task": "为 Flourite 做一个动态 Steam 循环 — 细节的角色动画,不是带抖动的静帧。",
+      "steps": [
+        "前期:客户素材切成多块,切完后共 68 层。",
+        "动画 & FX:身体与布料的关键帧、画框的扰流、保持循环的模糊与辉光。",
+        "后期:色彩、颗粒、辉光、最终渲染 — 导出时不要切掉边缘。"
+      ],
+      "problem": "合成过重:单条时间线上特效太多、未命名图层太多,容易丢失。",
+      "takeaway": "先定结构。给图层和预合成命名。分工要拆细。导出要干净,不要带被裁掉的部分。"
+    },
+    "toji": {
+      "title": "Toji 头像",
+      "desc": "个人社交头像 — 冷蓝霓虹角色构图。",
+      "tag": "设计",
+      "kanji": "冷",
+      "status": "live",
+      "image": "portfolio/toji.webp",
+      "task": "做一个抢眼的社交头像:把角色扣出来,合成进新背景,加灯光、叠加层与冷蓝调氛围。",
+      "steps": [
+        "抠出角色并清理边缘",
+        "匹配到深色科技风背景",
+        "加自定义灯光、辉光、叠加层与冷蓝调色",
+        "最终对比度与锐化"
+      ],
+      "problem": "扣完后头发上还残留着杂边和色边。背景与叠加层的组合试了好几版才定下来。",
+      "takeaway": "在叠加大量特效之前,先花时间把头发清理与边缘细化做扎实。好的灯光能藏小瑕疵,但干净的边缘更重要。"
+    },
+    "tojil2d": {
+      "title": "Toji Live2D",
+      "desc": "Live2D 动画进行中 — Toji Fushiguro 的绑定与动作。和 GFX 头像分开。",
+      "tag": "Live2D",
+      "kanji": "动",
+      "status": "wip"
+    },
+    "greenvert": {
+      "title": "Zani 手机",
+      "desc": "竖版角色海报 — 毒绿调氛围。",
+      "tag": "设计",
+      "kanji": "绿",
+      "status": "live",
+      "image": "portfolio/backgroundPfone3.webp",
+      "task": "做一张竖版海报,绿色调强烈,带能量效果,角色焦点清晰(手机壁纸/海报格式)。",
+      "steps": [
+        "角色定位与姿态",
+        "重绿色调与雾气氛围",
+        "加入粒子、辉光与背景符号",
+        "最终光包裹与对比度"
+      ],
+      "problem": "因为叠加光层太亮,皮肤与腿部过曝。",
+      "takeaway": "提前控制高光。用曲线或选择性光,而不是堆叠纯白辉光。"
+    },
+    "banner": {
+      "title": "ZAZARY 横幅",
+      "desc": "宽幅科技/赛博横幅,带角色与定制字体。",
+      "tag": "设计",
+      "kanji": "旗",
+      "status": "live",
+      "image": "portfolio/banner.webp",
+      "task": "设计一张黑白科技美学的宽幅横幅(页眉样式),品牌与角色都醒目。",
+      "steps": [
+        "角色抠图 + 细腻的描边/辉光",
+        "几何科技元素、线条、点阵与网格",
+        "定制字体处理 (ZAZARY)",
+        "最终构图平衡与柔和光带"
+      ],
+      "problem": "角色周围的白色描边在肩膀处显得有些廉价。",
+      "takeaway": "柔和的光包裹或细外发光,通常比硬朗的虚线描边更显高级。"
+    },
+    "benim": {
+      "title": "Benimaru 头像",
+      "desc": "蓝色能量角色构图。",
+      "tag": "设计",
+      "kanji": "苍",
+      "status": "live",
+      "image": "portfolio/benim.webp",
+      "task": "做一张动态蓝色调的角色作品,能量感强,焦点清晰。",
+      "steps": [
+        "角色分离",
+        "蓝色灯光与轮廓光",
+        "能量叠加、粒子与氛围",
+        "调色 + 最终润色"
+      ],
+      "problem": "效果不控制的话很容易压过角色。",
+      "takeaway": "始终保持脸和上半身最易读 — 效果是用来衬托的,不是用来埋掉主体的。"
+    },
+    "gojo": {
+      "title": "Gojo 头像",
+      "desc": "方形头像/资料图 — 铬金字 + 紫色魔法氛围。",
+      "tag": "设计",
+      "kanji": "紫",
+      "status": "live",
+      "image": "portfolio/gojos2.webp",
+      "task": "做一张高级感方形构图,铬金感的字与浓郁的紫色光。",
+      "steps": [
+        "角色定位与布光",
+        "人物背后的铬金风文字",
+        "紫色能量、辉光、粒子、花纹元素",
+        "最终调色与暗角"
+      ],
+      "problem": "头后面的 ZAZARY 文字读不清。",
+      "takeaway": "在角色后放大字时,要么偏移,要么策略性降低不透明度,要么加一层淡暗卡/阴影,让品牌仍可读。"
+    },
+    "quest": {
+      "title": "Quest 3",
+      "desc": "产品主视觉 — Meta Quest 3 头显与手柄。",
+      "tag": "3D",
+      "kanji": "品",
+      "status": "live",
+      "image": "portfolio/quest323.webp",
+      "task": "做一张干净高端的 Quest 3 产品图:悬浮手柄、六边形底座,强烈蓝色科技氛围。无文字,纯视觉。",
+      "steps": [
+        "产品定位与布光",
+        "六边形底座 + 环形霓虹",
+        "手柄定位与轮廓光",
+        "深蓝环境、辉光、反射与最终调色"
+      ],
+      "problem": "之前的版本有俄文功能标注(源文件丢了)。不得不重建一个无字的干净版本。",
+      "takeaway": "始终保留分层的源文件。没有文字的强产品视觉更灵活 — 适用于任何语言,之后可叠加 EN/RU 文字。"
+    },
+    "goo": {
+      "title": "风格化世界",
+      "desc": "用 Goo Engine 在 Blender 中学习风格化世界 — 造型、光照与绘画感 3D 空间。",
+      "tag": "3D",
+      "kanji": "界",
+      "status": "wip"
+    },
+    "chars": {
+      "title": "动漫造型",
+      "desc": "开始建模动漫角色:结构、体积、拓扑。Goo Engine 与 Unity 保持绘画感的风格化着色。",
+      "tag": "3D",
+      "kanji": "形",
+      "status": "wip"
+    },
+    "noxyrium": {
+      "title": "Noxyrium 视觉",
+      "desc": "Noxyrium 的品牌系统、横幅与服务器 GFX。项目的视觉语言 — 仍在锻造中。",
+      "tag": "GFX",
+      "kanji": "画",
+      "status": "wip"
+    },
+    "forge": {
+      "title": "Forge MDK 1.20.1",
+      "desc": "连接两端(客户端与服务端)的 Minecraft Forge 1.20.1 Mod。架构、同步、玩法系统。进行中。",
+      "tag": "Mod",
+      "kanji": "模",
+      "status": "wip"
+    },
+    "shaders": {
+      "title": "着色器笔记",
+      "desc": "实时着色器速写。当下是 GLSL;接下来 HLSL。",
+      "tag": "3D",
+      "kanji": "光",
+      "status": "queued"
+    },
+    "maya": {
+      "title": "Maya 学习",
+      "desc": "路线图:3D 建模、动画、绑定。为工作室生产工作做准备。",
+      "tag": "3D",
+      "kanji": "学",
+      "status": "queued"
+    },
+    "anime": {
+      "title": "动漫风格",
+      "desc": "学习中以动漫风格作画 — 解剖、动态、色彩、风格化。在 Clip Studio Paint 中工作。",
+      "tag": "插画"
+    },
+    "aecompose": {
+      "title": "AE 合成",
+      "desc": "为动画作品学习 After Effects 合成 — 图层、遮罩、缓动、音同步。排队中 — 尚未上线。",
+      "tag": "动态"
+    }
+  },
+  "projectsCount": 16,
+  "experienceSummary": "我的来时路",
+  "experienceCollapsed": "点击展开",
+  "experienceExpanded": "收起",
+  "closeMenu": "关闭菜单",
+  "experienceSortLabel": "切换顺序 (从早 / 从晚)",
+  "sortAsc": "从早到晚",
+  "sortDesc": "从晚到早"
+}

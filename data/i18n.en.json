@@ -1,0 +1,654 @@
+{
+  "lang": "en",
+  "htmlLang": "en",
+  "nav": {
+    "works": "works",
+    "about": "about",
+    "faq": "faq",
+    "contact": "contact",
+    "price": "price"
+  },
+  "titles": {
+    "portfolio": "portfolio",
+    "about": "about",
+    "value": "what i bring",
+    "skills": "skills",
+    "experience": "experience",
+    "uses": "setup",
+    "desk": "desk",
+    "faq": "faq",
+    "contact": "contact",
+    "ready": "ready",
+    "wiphead": "in progress",
+    "price": "price"
+  },
+  "hero": {
+    "kicker": "Zazary Realm",
+    "tag": "developer · artist · technical director",
+    "cta": "EXPLORE WORKS"
+  },
+  "preloader": {
+    "kicker": "Zazary Realm",
+    "status": "loading"
+  },
+  "fx": {
+    "title": "Do you want to optimize effects?",
+    "sub": "Disable heavy animations for better performance",
+    "optimize": "Optimize",
+    "keep": "Keep effects",
+    "restoreTitle": "Restore effects?",
+    "restoreSub": "Heavy motion is off. You can turn it back on.",
+    "stay": "Keep off",
+    "restore": "Restore"
+  },
+  "footer": "© 2026 Artyom | Zazary Realm. All rights reserved.",
+  "footerLinks": {
+    "email": "email",
+    "telegram": "telegram",
+    "discord": "discord",
+    "github": "github"
+  },
+  "skip": "Skip to content",
+  "openMenu": "Menu",
+  "filters": {
+    "all": "all",
+    "gfx": "GFX",
+    "animation": "animation",
+    "three": "3D",
+    "utilities": "utilities"
+  },
+  "portfolio": {
+    "lead": "ready work first. click a piece to open it large - with the write-up.",
+    "stats": "7 live · 2026 archive",
+    "hint": "click a ready card - image opens large, workflow underneath",
+    "cta": "commission / write me",
+    "view": "view",
+    "statusLive": "live",
+    "statusWIP": "in progress",
+    "statusQueued": "queued",
+    "soonWIP": "WIP",
+    "soonQ": "Q",
+    "empty": "nothing here yet - check back soon"
+  },
+  "value": {
+    "lead": "where i actually help - not a skill dump.",
+    "items": [
+      {
+        "t": "technical direction",
+        "b": "architecture, performance, plugins. i hold the technical line of a project from start to ship.",
+        "icon": "fa-solid fa-cubes-stacked"
+      },
+      {
+        "t": "motion & gfx",
+        "b": "steam loops, layer animation, illustration in motion. character focus and clean exports.",
+        "icon": "fa-solid fa-wand-magic-sparkles"
+      },
+      {
+        "t": "systems & reverse",
+        "b": "c++, winapi, ida, cheat engine. i read binaries and engines from the metal up.",
+        "icon": "fa-solid fa-magnifying-glass-chart"
+      },
+      {
+        "t": "worlds & lookdev",
+        "b": "blender, goo engine, stylized 3d. in training, already in the pipeline.",
+        "icon": "fa-solid fa-panorama"
+      }
+    ]
+  },
+  "skillGroups": {
+    "languages": "languages",
+    "systems": "systems & reverse",
+    "realtime": "realtime & engines",
+    "image": "image & identity",
+    "motion": "motion & worlds"
+  },
+  "skillCopy": {
+    "cpp": "Low-level systems, performance.",
+    "csharp": "Unity, tooling, .NET.",
+    "python": "Automation and scripting.",
+    "asm": "x86/x64, reverse workflows.",
+    "html": "Vanilla frontend.",
+    "winapi": "Windows internals.",
+    "ida": "Static binary analysis.",
+    "cheatengine": "Dynamic memory, runtime.",
+    "imgui": "Debug UI, automation.",
+    "opengl": "Custom renderers, shaders.",
+    "unity": "Prototypes, scenes.",
+    "photoshop": "GFX, compositing, textures.",
+    "clipstudio": "Illustration, characters.",
+    "design": "Identity, type, composition.",
+    "blender": "Stylized worlds, 3D animation.",
+    "aftereffects": "Motion, FX, montage.",
+    "animation": "Loops, FX, character motion."
+  },
+  "experience": {
+    "csharp": {
+      "date": "2020",
+      "title": "first c# project"
+    },
+    "unity": {
+      "date": "2021",
+      "title": "unity & c# - first games"
+    },
+    "blender": {
+      "date": "2022",
+      "title": "blender - 3d & game dev"
+    },
+    "cpp": {
+      "date": "2023",
+      "title": "c++ & system programming"
+    },
+    "reverse": {
+      "date": "2024",
+      "title": "reverse engineering"
+    },
+    "opengl": {
+      "date": "2024",
+      "title": "opengl / glsl - low-level rendering"
+    },
+    "design": {
+      "date": "2025",
+      "title": "design & gfx pipeline"
+    },
+    "animation": {
+      "date": "2025",
+      "title": "2d & 3d animation - blender / ae"
+    },
+    "drawing": {
+      "date": "2025 - present",
+      "title": "anime style - learning to draw"
+    },
+    "website": {
+      "date": "2025",
+      "title": "this website - vanilla js"
+    },
+    "northmine": {
+      "date": "2025",
+      "title": "northmine.ru - developer"
+    },
+    "live2d": {
+      "date": "2026 - present",
+      "title": "live2d - character rig & animation"
+    },
+    "maya": {
+      "date": "2026 - present",
+      "title": "autodesk maya - learning 3d pipeline"
+    },
+    "ta": {
+      "date": "2026 - present",
+      "title": "technical artist (unity, maya, blender)"
+    },
+    "noxyrium": {
+      "date": "2026 - present",
+      "title": "noxyrium - technical director"
+    }
+  },
+  "uses": {
+    "lead": "the stack on the desk - software i actually open.",
+    "create": {
+      "h": "create",
+      "items": [
+        "Blender",
+        "Goo Engine",
+        "After Effects",
+        "Photoshop",
+        "Clip Studio Paint"
+      ],
+      "icon": "fa-solid fa-palette",
+      "icons": {
+        "Blender": "fa-brands fa-blender",
+        "Goo Engine": "fa-solid fa-shapes",
+        "After Effects": "fa-solid fa-photo-film",
+        "Photoshop": "fa-solid fa-image",
+        "Clip Studio Paint": "fa-solid fa-pen-nib"
+      }
+    },
+    "code": {
+      "h": "code",
+      "items": [
+        "C++",
+        "C#",
+        "Python",
+        "vanilla HTML/CSS/JS"
+      ],
+      "icon": "fa-solid fa-code",
+      "icons": {
+        "C++": "fa-solid fa-memory",
+        "C#": "fa-brands fa-microsoft",
+        "Python": "fa-brands fa-python",
+        "vanilla HTML/CSS/JS": "fa-solid fa-layer-group"
+      }
+    },
+    "reverse": {
+      "h": "reverse",
+      "items": [
+        "IDA Pro",
+        "Cheat Engine"
+      ],
+      "icon": "fa-solid fa-magnifying-glass",
+      "icons": {
+        "IDA Pro": "fa-solid fa-magnifying-glass-chart",
+        "Cheat Engine": "fa-solid fa-wrench"
+      }
+    },
+    "runtime": {
+      "h": "runtime",
+      "items": [
+        "Unity",
+        "OpenGL / GLSL"
+      ],
+      "icon": "fa-solid fa-cube",
+      "icons": {
+        "Unity": "fa-brands fa-unity",
+        "OpenGL / GLSL": "fa-solid fa-cubes"
+      }
+    }
+  },
+  "hw": {
+    "lead": "the desk - specs, not a product dump.",
+    "items": [
+      {
+        "k": "cpu",
+        "v": "Intel Core i5-10400F"
+      },
+      {
+        "k": "memory",
+        "v": "32 GB"
+      },
+      {
+        "k": "gpu",
+        "v": "NVIDIA GeForce RTX 4060 8 GB"
+      },
+      {
+        "k": "storage",
+        "v": "1 TB SSD"
+      },
+      {
+        "k": "display",
+        "v": "1920×1080 · 60 Hz"
+      },
+      {
+        "k": "os",
+        "v": "Windows 11 Pro"
+      },
+      {
+        "k": "keyboard",
+        "v": "Ajazz AK820 Pro"
+      },
+      {
+        "k": "mouse",
+        "v": "Ajazz AJ179 Pro"
+      },
+      {
+        "k": "tablet",
+        "v": "XPPen Deco 640"
+      }
+    ]
+  },
+  "faq": {
+    "lead": "short and to the point. the long stuff lives on telegram.",
+    "items": [
+      {
+        "q": "what do i call you?",
+        "a": "artyom (zazary)."
+      },
+      {
+        "q": "what do you do?",
+        "a": "steam artwork, 2d/3d design, software (c++, c#, python, nasm), reverse engineering."
+      },
+      {
+        "q": "where is the portfolio?",
+        "a": "this site - zazaryx.github.io. open any piece and the workflow + final are right there."
+      },
+      {
+        "q": "how do we talk?",
+        "a": "telegram is the main door. e-mail for long threads or contracts. i answer within 2-6 hours. if i am quiet for a day - ping me again."
+      },
+      {
+        "q": "what timezone?",
+        "a": "utc+7 (msk +4 hours, kemerovo)."
+      },
+      {
+        "q": "how do i pay?",
+        "a": "via donatealerts if you're abroad. if you're in russia / cis, you can also pay via sbp (russian fast payment system) or by bank card. 50% upfront before i start, 50% after you approve the final. no work without the upfront payment."
+      },
+      {
+        "q": "schedule and deadlines?",
+        "a": "i take orders in the second half of the day and on weekends. exact deadline comes after i read the brief."
+      },
+      {
+        "q": "what is the workflow?",
+        "a": "i share intermediate stages (sketches, 3d drafts, rough cuts, software builds) so we steer in the right direction."
+      },
+      {
+        "q": "what about revisions?",
+        "a": "reasonable revisions on the brief are free. full re-concept or a from-scratch redo is paid extra."
+      },
+      {
+        "q": "what do you need from me?",
+        "a": "a clear brief, references / examples (for design / 3d) or a technical task description (for software)."
+      },
+      {
+        "q": "how do i receive the result?",
+        "a": "final animated / static file (.gif, .png, .mp4) optimised for steam, or 3d renders / source files, or a built piece of software (.exe, source on agreement). rights transfer after full payment."
+      },
+      {
+        "q": "what if i cancel?",
+        "a": "if you cancel after i started, the upfront payment is not refunded (covers the time already spent)."
+      },
+      {
+        "q": "what do you not take?",
+        "a": "online games (no cheats / mods for online games), scam projects, and tasks i cannot stand behind."
+      }
+    ],
+    "price": {
+      "note": "exact price depends on complexity, scope, and deadline (+30-50% for «needed tomorrow»).",
+      "design": {
+        "title": "design and steam artwork",
+        "kanji": "画",
+        "items": [
+          {
+            "name": "static avatar / banner / preview",
+            "price": "from 500 rub"
+          },
+          {
+            "name": "animated steam artwork (heavy animation, detailing, sliced layers)",
+            "price": "from 1 500 rub"
+          },
+          {
+            "name": "full steam profile pack, turnkey",
+            "price": "from 4 000 rub"
+          }
+        ]
+      },
+      "threeD": {
+        "title": "3d graphics and compositing",
+        "kanji": "界",
+        "note": "i am actively expanding my 3d portfolio, hence the pricing.",
+        "items": [
+          {
+            "name": "3d elements integrated into a 2d design / art",
+            "price": "from 1 000 rub"
+          },
+          {
+            "name": "3d scene build and render (product, environment)",
+            "price": "from 1 500 rub"
+          },
+          {
+            "name": "complex 3d scene + post / animation",
+            "price": "from 2 500 rub"
+          }
+        ]
+      },
+      "dev": {
+        "title": "software (c++, c#, python, nasm)",
+        "kanji": "剣",
+        "items": [
+          {
+            "name": "scripts / parsers / auto-clickers (python)",
+            "price": "from 1 000 rub"
+          },
+          {
+            "name": "telegram / discord bots",
+            "price": "from 1 500 rub"
+          },
+          {
+            "name": "utilities / gui apps (c++, c#)",
+            "price": "from 2 000 rub"
+          },
+          {
+            "name": "low-level tools / software (nasm / c++)",
+            "price": "from 4 000 rub"
+          }
+        ]
+      },
+      "reverse": {
+        "title": "reverse engineering and modding",
+        "kanji": "道",
+        "items": [
+          {
+            "name": "program dump / unpacking / analysis",
+            "price": "from 2 000 rub"
+          },
+          {
+            "name": "trainers / cheats for offline games",
+            "price": "from 3 000 rub"
+          }
+        ]
+      },
+      "currencyNote": "prices are approximate. final quote after reading the brief."
+    }
+  },
+  "contact": {
+    "lead": "telegram first. email if you prefer a thread.",
+    "cta": "discuss a project",
+    "wechat": "wechat",
+    "wechatHint": "scan QR to add",
+    "wechatTitle": "scan to add on wechat",
+    "wechatIdLabel": "Wechat ID",
+    "wechatCopy": "Copy Wechat ID",
+    "wechatCopied": "copied",
+    "tgGroup": "telegram channel",
+    "tgGroupDesc": "public channel about life & updates",
+    "emailHint": "click to open",
+    "emailCopied": "copied!",
+    "emailTitle": "drop a line",
+    "emailIdLabel": "Address",
+    "emailCopy": "Copy email",
+    "emailOpen": "open in mail app",
+    "emailHintModal": "copy the address or tap to open your mail client"
+  },
+  "modal": {
+    "fwTask": "task",
+    "fwFlow": "workflow",
+    "fwLessons": "lessons",
+    "fwProblem": "problem",
+    "fwTakeaway": "takeaway",
+    "zoomHint": "click to close"
+  },
+  "aboutText": "<p>hey, i'm artyom - developer, artist, and technical lead. i work across the stack: from low-level c++ and assembly to high-level c#, python, and web. my focus: the intersection of systems programming, reverse engineering, and visual creation.</p><p>i take a structured approach to every project - clear naming, clean pipelines, predictable revisions. whether it's analysing binaries in ida pro, building an opengl renderer, or animating a steam-loop, i hold the same line: technical rigour meets aesthetic intent.</p><p>currently <span class=\"highlight\">technical director</span> at <span class=\"highlight\">noxyrium</span> (minecraft server in development). training as a <span class=\"highlight\">technical artist</span> - next up: hlsl shaders at the art-engine boundary. also exploring 2d/3d animation, illustration, and stylized worlds in blender with goo engine.</p>",
+  "experienceHtml": {
+    "csharp": "<p>first real c# project. the language that taught me oop, async, and what \"managed runtime\" actually means. started with console apps and small tools.</p>",
+    "unity": "<p>built first playable games in <strong>unity</strong> with c#. learned scene structure, prefabs, coroutines, and the asset pipeline. shipped a couple of small prototypes.</p>",
+    "blender": "<p>picked up <strong>blender</strong> for 3d modelling, sculpting, and basic game dev. made my first environments and learned hard-surface modelling. set the foundation for the 3d side of the work.</p>",
+    "cpp": "<p>went low-level with <strong>c++</strong> and system programming. memory management, build systems, and writing code that actually touches the metal. later fed straight into the engine work.</p>",
+    "reverse": "<p>reverse engineering work - reading binaries, mapping structures, writing tooling around disassembly. sharpened debugging instincts across all later work.</p>",
+    "opengl": "<p>building a low-level 3d rendering engine using modern <strong>opengl</strong>, glfw, glad, and glm. custom vertex and fragment shaders in <strong>glsl</strong>, mvp pipelines, lighting, geometry. the technical artist path runs through here.</p>",
+    "design": "<p>full design practice across visual identity, ui composition, typography, and branding. avatars, gfx assets, thumbnails, promo material via photoshop, after effects, and blender. experimenting with motion for dynamic visual content.</p>",
+    "animation": "<p>producing original animation in both 2d and 3d. in <strong>blender</strong> - full character/object rigging, keyframe animation, cinematic renders. in <strong>after effects</strong> - layer separation, compositing, motion graphics and video intros.</p>",
+    "drawing": "<p>learning to draw in anime style. anatomy, gesture, colour, stylisation. main tool is <strong>clip studio paint</strong>, with photoshop for processing. still practising character sketches and backgrounds.</p>",
+    "live2d": "<p>studying <strong>live2d</strong> for character rig and animation - the format used in vtuber and gacha workflows. building a portfolio piece around the toji character (see <em>toji 2d</em> in the portfolio section).</p>",
+    "website": "<p>designing and developing this portfolio site from scratch with vanilla html, css, and javascript - no frameworks. parallax video layers, language switching, sakura, custom cursor, effects toggle. live portfolio and a lab for pure front-end.</p>",
+    "northmine": "<p>worked as a developer on <strong>northmine.ru</strong>, a minecraft server project. server-side scripting, configuration, and small plugins. shipped in production, then moved on to <em>noxyrium</em>.</p>",
+    "maya": "<p>currently learning <strong>autodesk maya</strong> as a third 3d package alongside blender and after effects. focus on industry-standard rigging, character animation, and studio pipelines - so portfolio work in 3d ships in a professional workflow.</p>",
+    "ta": "<p>studying as a <strong>technical artist</strong> across <strong>unity, maya, and blender</strong>. writing custom shaders in <strong>glsl and hlsl</strong>, building render pipelines, and automating repetitive work through <strong>python scripts in maya</strong> and <strong>blender add-ons</strong> (geometry nodes, bpy, asset batchers, export pipelines). the bridge between code and art - and the boring parts that nobody wants to click through by hand.</p>",
+    "noxyrium": "<p>serving as technical director of <strong>noxyrium</strong> - an atmospheric minecraft server currently in active development. full technical vision: server architecture, performance optimisation, custom plugin development, infrastructure. coordinating the technical team.</p>"
+  },
+  "projects": {
+    "flourite": {
+      "title": "Flourite",
+      "desc": "Arknights: Endfield - Flourite as a detailed steam-loop. Illustration in motion over a painted field.",
+      "tag": "Animation",
+      "kanji": "剣",
+      "status": "live",
+      "video": "portfolio/sfrayss_1.webm",
+      "task": "build a dynamic steam-loop for flourite - detailed character animation, not a still with a wobble.",
+      "steps": [
+        "pre-production: the client art was split into many pieces. after the cut: 68 layers.",
+        "animation & fx: keyframes through the body and cloth; turbulence on the frame; blur and glow to hold the loop.",
+        "post: color, grain, glow, final render - export without clipping the edges."
+      ],
+      "problem": "the comp got too heavy: too many effects in one timeline, too many unnamed layers to get lost in.",
+      "takeaway": "structure first. name layers and precomps. split the work. export clean, no cropped pieces."
+    },
+    "toji": {
+      "title": "Toji Avatar",
+      "desc": "Personal social avatar - cold-blue neon character composition.",
+      "tag": "Design",
+      "kanji": "冷",
+      "status": "live",
+      "image": "portfolio/toji.webp",
+      "task": "Create a striking social avatar: cut out the character, integrate him into a new background, add lighting, overlays and atmosphere in a cold blue palette.",
+      "steps": [
+        "Extracted the character and cleaned the edges",
+        "Matched him to a dark tech background",
+        "Added custom lighting, glow, overlays and color grading (cold blue)",
+        "Final contrast and sharpening pass"
+      ],
+      "problem": "Hair had leftover artifacts and fringing after the cutout. Finding the right background + overlay combination took several iterations.",
+      "takeaway": "Always spend extra time on hair clean-up and edge refinement before adding heavy effects. Good lighting can hide minor flaws, but clean edges matter more."
+    },
+    "tojil2d": {
+      "title": "Toji Live2D",
+      "desc": "Live2D animation in progress - rig and motion for Toji Fushiguro. Separate from the GFX avatar.",
+      "tag": "Live2D",
+      "kanji": "動",
+      "status": "wip"
+    },
+    "greenvert": {
+      "title": "Zani phone",
+      "desc": "Vertical character poster - toxic green atmosphere.",
+      "tag": "Design",
+      "kanji": "緑",
+      "status": "live",
+      "image": "portfolio/backgroundPfone3.webp",
+      "task": "Build a tall vertical piece with strong green color mood, energy effects and clear character focus (phone wallpaper / poster format).",
+      "steps": [
+        "Character placement and posing",
+        "Heavy green color grading and fog/smoke atmosphere",
+        "Added particles, glow and background symbols",
+        "Final light wrap and contrast"
+      ],
+      "problem": "Skin and legs got overexposed (blown out) because of too strong light layers.",
+      "takeaway": "Control highlights earlier. Use curves or selective light instead of stacking pure white glows."
+    },
+    "banner": {
+      "title": "ZAZARY Banner",
+      "desc": "Wide tech / cyber banner with character and custom typography.",
+      "tag": "Design",
+      "kanji": "旗",
+      "status": "live",
+      "image": "portfolio/banner.webp",
+      "task": "Design a clean wide banner (header style) in black and white tech aesthetic with strong branding and character presence.",
+      "steps": [
+        "Character cutout + subtle outline/glow",
+        "Geometric tech elements, lines, dots and grid",
+        "Custom typography treatment (ZAZARY)",
+        "Final composition balance and soft light streaks"
+      ],
+      "problem": "White stroke around the character felt slightly cheap on the shoulder area.",
+      "takeaway": "Soft light wrap or thin outer glow usually looks more premium than a hard dashed stroke."
+    },
+    "benim": {
+      "title": "Benimaru Avatar",
+      "desc": "Blue energy character composition.",
+      "tag": "Design",
+      "kanji": "蒼",
+      "status": "live",
+      "image": "portfolio/benim.webp",
+      "task": "Make a dynamic blue-toned character piece with strong energy effects and a clear focal point.",
+      "steps": [
+        "Character isolation",
+        "Blue lighting and rim light",
+        "Energy overlays, particles and atmosphere",
+        "Color grade + final polish"
+      ],
+      "problem": "Effects could easily overpower the character if not controlled.",
+      "takeaway": "Always keep the face and upper body most readable - effects should support, not bury the subject."
+    },
+    "gojo": {
+      "title": "Gojo Avatar",
+      "desc": "Square avatar / profile piece - chrome type + purple magic atmosphere.",
+      "tag": "Design",
+      "kanji": "紫",
+      "status": "live",
+      "image": "portfolio/gojos2.webp",
+      "task": "Create a premium square composition with stylish chrome lettering and rich purple lighting.",
+      "steps": [
+        "Character placement and lighting",
+        "Chrome-style text behind the figure",
+        "Purple energy, glow, particles and floral elements",
+        "Final color grade and vignette"
+      ],
+      "problem": "The text ZAZARY lost readability behind the head.",
+      "takeaway": "When placing big type behind a character, either shift it, lower opacity strategically, or add a subtle dark card/shadow so the brand still reads."
+    },
+    "quest": {
+      "title": "Quest 3",
+      "desc": "Product key visual - Meta Quest 3 headset and controllers.",
+      "tag": "3D",
+      "kanji": "品",
+      "status": "live",
+      "image": "portfolio/quest323.webp",
+      "task": "Create a clean premium product shot of the Quest 3 with floating controllers, hexagon podium and strong blue tech atmosphere. No text, pure visual focus.",
+      "steps": [
+        "Product placement and lighting setup",
+        "Hexagon podium + circular neon base",
+        "Controllers positioning and rim light",
+        "Dark blue environment, glow, reflections and final color grade"
+      ],
+      "problem": "Earlier version had Russian feature callouts (source file was lost). Had to rebuild a clean text-free version.",
+      "takeaway": "Always keep layered sources. A strong product visual without text is more flexible - it works for any language and can later receive EN/RU text overlays if needed."
+    },
+    "goo": {
+      "title": "Stylized Worlds",
+      "desc": "Learning stylized worlds in Blender with Goo Engine - look, lighting, and a painted 3D space.",
+      "tag": "3D",
+      "kanji": "界",
+      "status": "wip"
+    },
+    "chars": {
+      "title": "Anime Form",
+      "desc": "Starting to model anime characters: structure, volumes, topology. Stylized shading the way Goo Engine and Unity hold a painted look.",
+      "tag": "3D",
+      "kanji": "形",
+      "status": "wip"
+    },
+    "noxyrium": {
+      "title": "Noxyrium Identity",
+      "desc": "Brand system, banners and server GFX for Noxyrium. The visual language of the project - still being forged.",
+      "tag": "GFX",
+      "kanji": "画",
+      "status": "wip"
+    },
+    "forge": {
+      "title": "Forge MDK 1.20.1",
+      "desc": "A Minecraft Forge 1.20.1 mod on both sides of the connection - client and server. Architecture, sync, gameplay systems. In progress.",
+      "tag": "Mod",
+      "kanji": "模",
+      "status": "wip"
+    },
+    "shaders": {
+      "title": "Shader Notes",
+      "desc": "Real-time shader sketches. GLSL now; HLSL next.",
+      "tag": "3D",
+      "kanji": "光",
+      "status": "queued"
+    },
+    "maya": {
+      "title": "Learning Maya",
+      "desc": "On the roadmap: 3d modeling, animation, rigging. Preparing for production work in a studio.",
+      "tag": "3D",
+      "kanji": "学",
+      "status": "queued"
+    },
+    "anime": {
+      "title": "Anime Style",
+      "desc": "Learning to draw in anime style - anatomy, gesture, colour, stylization. Working in Clip Studio Paint.",
+      "tag": "Illustration"
+    },
+    "aecompose": {
+      "title": "AE Compositing",
+      "desc": "Learning After Effects compositing for animation pieces - layers, masks, easing, sound sync. Queued - not live yet.",
+      "tag": "Motion"
+    }
+  },
+  "projectsCount": 16,
+  "experienceSummary": "what i have been up to",
+  "experienceCollapsed": "tap to expand",
+  "experienceExpanded": "collapse",
+  "closeMenu": "Close menu",
+  "experienceSortLabel": "Toggle order (oldest / newest first)",
+  "sortAsc": "oldest first",
+  "sortDesc": "newest first"
+}

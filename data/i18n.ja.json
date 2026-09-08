@@ -1,0 +1,654 @@
+{
+  "lang": "ja",
+  "htmlLang": "ja",
+  "nav": {
+    "works": "作品",
+    "about": "概要",
+    "faq": "FAQ",
+    "contact": "連絡",
+    "price": "料金"
+  },
+  "titles": {
+    "portfolio": "ポートフォリオ",
+    "about": "自己紹介",
+    "value": "提供できること",
+    "skills": "スキル",
+    "experience": "経歴",
+    "uses": "ツール",
+    "desk": "作業環境",
+    "faq": "よくある質問",
+    "contact": "お問い合わせ",
+    "ready": "完成",
+    "wiphead": "進行中",
+    "price": "料金"
+  },
+  "hero": {
+    "kicker": "Zazary Realm",
+    "tag": "開発者 · アーティスト · テクニカルディレクター",
+    "cta": "作品を見る"
+  },
+  "preloader": {
+    "kicker": "Zazary Realm",
+    "status": "読み込み中"
+  },
+  "fx": {
+    "title": "エフェクトを最適化しますか?",
+    "sub": "重いアニメーションを無効化してパフォーマンスを改善",
+    "optimize": "最適化する",
+    "keep": "そのまま",
+    "restoreTitle": "エフェクトを戻しますか?",
+    "restoreSub": "重い動作が無効になっています。再度有効にできます。",
+    "stay": "オフのまま",
+    "restore": "復元"
+  },
+  "footer": "© 2026 Artyom | Zazary Realm. All rights reserved.",
+  "footerLinks": {
+    "email": "メール",
+    "telegram": "テレグラム",
+    "discord": "ディスコード",
+    "github": "ギットハブ"
+  },
+  "skip": "本文へスキップ",
+  "openMenu": "メニュー",
+  "filters": {
+    "all": "全て",
+    "gfx": "GFX",
+    "animation": "アニメーション",
+    "three": "3D",
+    "utilities": "ツール"
+  },
+  "portfolio": {
+    "lead": "完成作品を先に。各作品をクリックすると大きな画像と制作過程が見られます。",
+    "stats": "公開 7件 · 2026 アーカイブ",
+    "hint": "完成カードをクリック — 画像が大きく表示され、制作過程が下に表示されます",
+    "cta": "依頼する / 連絡する",
+    "view": "見る",
+    "statusLive": "公開",
+    "statusWIP": "進行中",
+    "statusQueued": "待機",
+    "soonWIP": "作業中",
+    "soonQ": "待機",
+    "empty": "現在作品はありません — また後ほど"
+  },
+  "value": {
+    "lead": "実際に提供できるもの — スキルの羅列ではありません。",
+    "items": [
+      {
+        "t": "テクニカルディレクション",
+        "b": "アーキテクチャ、パフォーマンス、プラグイン。プロジェクトの開始からリリースまで技術面を統括します。",
+        "icon": "fa-solid fa-cubes-stacked"
+      },
+      {
+        "t": "モーション & GFX",
+        "b": "Steamループ、レイヤーアニメーション、動くイラスト。キャラクター中心のクリーンな書き出し。",
+        "icon": "fa-solid fa-wand-magic-sparkles"
+      },
+      {
+        "t": "システム & リバース",
+        "b": "C++、WinAPI、IDA、Cheat Engine。バイナリとエンジンを根本から読み解きます。",
+        "icon": "fa-solid fa-magnifying-glass-chart"
+      },
+      {
+        "t": "ワールド & ルックデブ",
+        "b": "Blender、Goo Engine、スタイライズド3D。勉強中ですが、すでに制作ラインに入っています。",
+        "icon": "fa-solid fa-panorama"
+      }
+    ]
+  },
+  "skillGroups": {
+    "languages": "言語",
+    "systems": "システム & リバース",
+    "realtime": "リアルタイム & エンジン",
+    "image": "画像 & アイデンティティ",
+    "motion": "モーション & ワールド"
+  },
+  "skillCopy": {
+    "cpp": "低レベルシステム、パフォーマンス。",
+    "csharp": "Unity、ツール、.NET。",
+    "python": "自動化とスクリプティング。",
+    "asm": "x86/x64、リバースエンジニアリング。",
+    "html": "バニラフロントエンド。",
+    "winapi": "Windows内部。",
+    "ida": "静的バイナリ解析。",
+    "cheatengine": "動的メモリ、ランタイム。",
+    "imgui": "デバッグUI、自動化。",
+    "opengl": "カスタムレンダラー、シェーダー。",
+    "unity": "プロトタイプ、シーン。",
+    "photoshop": "GFX、合成、テクスチャ。",
+    "clipstudio": "イラスト、キャラクター。",
+    "design": "アイデンティティ、タイポグラフィ、構図。",
+    "blender": "スタイライズドワールド、3Dアニメーション。",
+    "aftereffects": "モーション、FX、モンタージュ。",
+    "animation": "ループ、FX、キャラクターモーション。"
+  },
+  "experience": {
+    "csharp": {
+      "date": "2020",
+      "title": "初めての C# プロジェクト"
+    },
+    "unity": {
+      "date": "2021",
+      "title": "Unity & C# - 初めてのゲーム"
+    },
+    "blender": {
+      "date": "2022",
+      "title": "Blender - 3D & ゲーム開発"
+    },
+    "cpp": {
+      "date": "2023",
+      "title": "C++ & システムプログラミング"
+    },
+    "reverse": {
+      "date": "2024",
+      "title": "リバースエンジニアリング"
+    },
+    "opengl": {
+      "date": "2024",
+      "title": "OpenGL / GLSL - 低レベルレンダリング"
+    },
+    "design": {
+      "date": "2025",
+      "title": "デザイン & GFX パイプライン"
+    },
+    "animation": {
+      "date": "2025",
+      "title": "2D & 3D アニメーション - Blender / AE"
+    },
+    "drawing": {
+      "date": "2025 - 現在",
+      "title": "アニメスタイル - イラストを勉強中"
+    },
+    "website": {
+      "date": "2025",
+      "title": "このサイト - vanilla JS"
+    },
+    "northmine": {
+      "date": "2025",
+      "title": "northmine.ru - 開発者"
+    },
+    "live2d": {
+      "date": "2026 - 現在",
+      "title": "Live2D - キャラクターリグとアニメーション"
+    },
+    "maya": {
+      "date": "2026 - 現在",
+      "title": "Autodesk Maya - 3Dパイプラインを学習中"
+    },
+    "ta": {
+      "date": "2026 - 現在",
+      "title": "テクニカルアーティスト (Unity、Maya、Blender)"
+    },
+    "noxyrium": {
+      "date": "2026 - 現在",
+      "title": "Noxyrium - テクニカルディレクター"
+    }
+  },
+  "uses": {
+    "lead": "机の上のスタック — 実際に使っているソフトウェア。",
+    "create": {
+      "h": "制作",
+      "items": [
+        "Blender",
+        "Goo Engine",
+        "After Effects",
+        "Photoshop",
+        "Clip Studio Paint"
+      ],
+      "icon": "fa-solid fa-palette",
+      "icons": {
+        "Blender": "fa-brands fa-blender",
+        "Goo Engine": "fa-solid fa-shapes",
+        "After Effects": "fa-solid fa-photo-film",
+        "Photoshop": "fa-solid fa-image",
+        "Clip Studio Paint": "fa-solid fa-pen-nib"
+      }
+    },
+    "code": {
+      "h": "コード",
+      "items": [
+        "C++",
+        "C#",
+        "Python",
+        "バニラ HTML/CSS/JS"
+      ],
+      "icon": "fa-solid fa-code",
+      "icons": {
+        "C++": "fa-solid fa-memory",
+        "C#": "fa-brands fa-microsoft",
+        "Python": "fa-brands fa-python",
+        "バニラ HTML/CSS/JS": "fa-solid fa-layer-group"
+      }
+    },
+    "reverse": {
+      "h": "リバース",
+      "items": [
+        "IDA Pro",
+        "Cheat Engine"
+      ],
+      "icon": "fa-solid fa-magnifying-glass",
+      "icons": {
+        "IDA Pro": "fa-solid fa-magnifying-glass-chart",
+        "Cheat Engine": "fa-solid fa-wrench"
+      }
+    },
+    "runtime": {
+      "h": "ランタイム",
+      "items": [
+        "Unity",
+        "OpenGL / GLSL"
+      ],
+      "icon": "fa-solid fa-cube",
+      "icons": {
+        "Unity": "fa-brands fa-unity",
+        "OpenGL / GLSL": "fa-solid fa-cubes"
+      }
+    }
+  },
+  "hw": {
+    "lead": "作業環境 — スペック一覧、製品の宣伝ではありません。",
+    "items": [
+      {
+        "k": "cpu",
+        "v": "Intel Core i5-10400F"
+      },
+      {
+        "k": "メモリ",
+        "v": "32 GB"
+      },
+      {
+        "k": "gpu",
+        "v": "NVIDIA GeForce RTX 4060 8 GB"
+      },
+      {
+        "k": "ストレージ",
+        "v": "1 TB SSD"
+      },
+      {
+        "k": "ディスプレイ",
+        "v": "1920×1080 · 60 Hz"
+      },
+      {
+        "k": "os",
+        "v": "Windows 11 Pro"
+      },
+      {
+        "k": "キーボード",
+        "v": "Ajazz AK820 Pro"
+      },
+      {
+        "k": "マウス",
+        "v": "Ajazz AJ179 Pro"
+      },
+      {
+        "k": "ペンタブ",
+        "v": "XPPen Deco 640"
+      }
+    ]
+  },
+  "faq": {
+    "lead": "短く要点だけ。詳細はテレグラムで。",
+    "items": [
+      {
+        "q": "お名前は?",
+        "a": "Artyom (zazary)です。"
+      },
+      {
+        "q": "何をしていますか?",
+        "a": "Steamアートワーク、2D/3Dデザイン、ソフトウェア (c++, c#, python, nasm)、リバースエンジニアリング。"
+      },
+      {
+        "q": "ポートフォリオはどこですか?",
+        "a": "このサイト — zazaryx.github.io。作品をクリックすると制作過程と完成版が見られます。"
+      },
+      {
+        "q": "連絡方法は?",
+        "a": "テレグラムが主な連絡手段です。長いスレッドや契約はメールでも可。通常2〜6時間以内に返信します。1日音沙汰がない場合は再度お知らせください。"
+      },
+      {
+        "q": "タイムゾーンは?",
+        "a": "UTC+7 (モスクワ+4時間、ノヴォシビルスク)。"
+      },
+      {
+        "q": "支払い方法は?",
+        "a": "海外から:DonateAlerts。ロシア/CIS圏:送金(СБП)または銀行カードでも可。着手金50%、完成承認後に残り50%。着手金なしでは着手しません。"
+      },
+      {
+        "q": "スケジュールと納期は?",
+        "a": "注文受付は午後と週末中心。正確な納期はブリーフ確認後にお伝えします。"
+      },
+      {
+        "q": "制作フローは?",
+        "a": "途中段階(スケッチ、3D下書き、ラフ、ソフトウェアビルド)を共有し、方向性を確認しながら進めます。"
+      },
+      {
+        "q": "修正は?",
+        "a": "ブリーフ内の合理的な修正は無料。コンセプト全体や一からのやり直しは追加料金となります。"
+      },
+      {
+        "q": "こちらからは何が必要?",
+        "a": "明確なブリーフと、リファレンス/参考例(デザイン・3D)または技術的な作業内容(ソフトウェア)のご共有をお願いします。"
+      },
+      {
+        "q": "成果物の受け取り方法は?",
+        "a": "最終ファイル(.gif、.png、.mp4 — Steam向けに最適化)、または3Dレンダー/ソースファイル、あるいはビルド済みソフトウェア(.exe、希望によりソース)。権利譲渡は全額入金後です。"
+      },
+      {
+        "q": "キャンセルしたい場合は?",
+        "a": "着手後のキャンセルは着手金を返金できません(既に消費した作業時間のため)。"
+      },
+      {
+        "q": "対応していない案件は?",
+        "a": "オンラインゲーム(チート/Mod不可)、詐欺案件、そして自分の信念に反する案件は対応しません。"
+      }
+    ],
+    "price": {
+      "note": "正確な料金は複雑さ、範囲、納期により異なります(明日納期は+30〜50%)。",
+      "currencyNote": "料金は目安です。最終的な見積もりはブリーフ確認後にお伝えします。",
+      "design": {
+        "title": "デザインとSteamアートワーク",
+        "kanji": "画",
+        "items": [
+          {
+            "name": "静的アバター / バナー / プレビュー",
+            "price": "from 500 rub"
+          },
+          {
+            "name": "アニメーションSteamアートワーク(重め・詳細・分割レイヤー)",
+            "price": "from 1 500 rub"
+          },
+          {
+            "name": "Steamプロフィール一式(完成パッケージ)",
+            "price": "from 4 000 rub"
+          }
+        ]
+      },
+      "threeD": {
+        "title": "3Dグラフィックスと合成",
+        "kanji": "界",
+        "note": "3Dポートフォリオを積極的に拡張中のため、現在の価格設定です。",
+        "items": [
+          {
+            "name": "2Dデザイン/アートに統合する3D要素",
+            "price": "from 1 000 rub"
+          },
+          {
+            "name": "3Dシーン構築とレンダー(製品、環境)",
+            "price": "from 1 500 rub"
+          },
+          {
+            "name": "複雑な3Dシーン + ポスト / アニメーション",
+            "price": "from 2 500 rub"
+          }
+        ]
+      },
+      "dev": {
+        "title": "ソフトウェア (c++, c#, python, nasm)",
+        "kanji": "剣",
+        "items": [
+          {
+            "name": "スクリプト / パーサー / 自動クリッカー (python)",
+            "price": "from 1 000 rub"
+          },
+          {
+            "name": "Telegram / Discord ボット",
+            "price": "from 1 500 rub"
+          },
+          {
+            "name": "ユーティリティ / GUI アプリ (c++, c#)",
+            "price": "from 2 000 rub"
+          },
+          {
+            "name": "低レベルツール / ソフトウェア (nasm / c++)",
+            "price": "from 4 000 rub"
+          }
+        ]
+      },
+      "reverse": {
+        "title": "リバースエンジニアリングとMod制作",
+        "kanji": "道",
+        "items": [
+          {
+            "name": "プログラムダンプ / アンパック / 解析",
+            "price": "from 2 000 rub"
+          },
+          {
+            "name": "オフラインゲームのトレーナー / チート",
+            "price": "from 3 000 rub"
+          }
+        ]
+      }
+    }
+  },
+  "contact": {
+    "lead": "まずはテレグラムへ。スレッド形式が良ければメールでも可。",
+    "cta": "プロジェクトを相談する",
+    "wechat": "wechat",
+    "wechatHint": "QRを読み取って追加",
+    "wechatTitle": "wechatで追加するにはQRを読み取る",
+    "wechatIdLabel": "Wechat ID",
+    "wechatCopy": "Wechat IDをコピー",
+    "wechatCopied": "コピーしました",
+    "tgGroup": "テレグラムチャンネル",
+    "tgGroupDesc": "日常や近況を発信する公開チャンネル",
+    "emailHint": "クリックで開く",
+    "emailCopied": "コピーしました！",
+    "emailTitle": "メールを送る",
+    "emailIdLabel": "アドレス",
+    "emailCopy": "メールをコピー",
+    "emailOpen": "メールアプリで開く",
+    "emailHintModal": "アドレスをコピーするか、メールアプリで開いてください"
+  },
+  "modal": {
+    "fwTask": "課題",
+    "fwFlow": "制作フロー",
+    "fwLessons": "学び",
+    "fwProblem": "問題点",
+    "fwTakeaway": "教訓",
+    "zoomHint": "クリックで閉じる"
+  },
+  "aboutText": "<p>Artyom(zazary)— <strong>テクニカルディレクター、アーティスト、ソフトウェア開発者</strong>。現在ロシア・シベリアの<strong>noxyrium</strong>でMinecraftサーバーの技術面を率いています。</p><p>10年以上ソフトウェアを書いてきた中で、今はデザインと3Dに重点を置いています。Blender、After Effects、Photoshop、Clip Studio Paintで2D/3D両方を制作。Goo Engineでスタイライズド3Dを勉強中。</p><p>動画、GFX、アニメーション、Steam向けアートワーク、またはカスタムソフトウェアが必要なら — ご連絡ください。</p>",
+  "experienceHtml": {
+    "csharp": "<p>初めてのちゃんとした <strong>C#</strong> プロジェクト。OOP、async、マネージドランタイムを学んだ言語。コンソールアプリと小さなツールから始めました。</p>",
+    "unity": "<p><strong>Unity</strong> と C# で初めて遊べるゲームを作りました。シーン構造、プレハブ、コルーチン、アセットパイプラインを習得。小さなプロトタイプをいくつかリリース。</p>",
+    "blender": "<p>3Dモデリング、スカルプト、基本的なゲーム開発のために <strong>Blender</strong> を習得。初めての環境を作り、ハードサーフェスを学びました。3D側の基礎固め。</p>",
+    "cpp": "<p><strong>C++</strong> とシステムプログラミングで低レイヤーに降りた。メモリ管理、ビルドシステム、メタルに触れるコード。これが後のエンジン仕事に直結。</p>",
+    "reverse": "<p>リバースエンジニアリング - バイナリ読み込み、構造体のマッピング、逆アセンブリ周りのツール。デバッグ勘が後のすべての仕事で効いた。</p>",
+    "opengl": "<p>モダンな <strong>OpenGL</strong>、glfw、glad、glm でローレベル3Dレンダリングエンジンを構築中。<strong>GLSL</strong> のカスタム頂点/フラグメントシェーダー、MVPパイプライン、ライティング、ジオメトリ。テクニカルアーティストの路はここを通る。</p>",
+    "design": "<p>ビジュアルアイデンティティ、UI構成、タイポグラフィ、ブランディングを横断するデザイン実践。Photoshop、After Effects、Blender でアバター、GFX アセット、サムネイル、プロモ素材を作成。モーションで動的なビジュアルも実験中。</p>",
+    "animation": "<p>2D と 3D の両方でオリジナルアニメーションを制作。<strong>Blender</strong> では完全なキャラクター/オブジェクトリグ、キーフレームアニメーション、シネマティックレンダリング。<strong>After Effects</strong> ではレイヤー分離、コンポジット、モーショングラフィックス、イントロ映像。</p>",
+    "drawing": "<p>アニメスタイルでイラストを勉強中。 anatomy、gesture、color、stylization。メインは <strong>Clip Studio Paint</strong>、仕上げに Photoshop。キャラスケッチと背景を引き続き練習中。</p>",
+    "live2d": "<p>VTuber とガチャ系で使われる <strong>Live2D</strong> のリグとアニメーションを研究中。トージキャラクターのポートフォリオ作品を制作中 (ポートフォリオの <em>toji 2d</em> を参照)。</p>",
+    "website": "<p>バニラ HTML/CSS/JS（フレームワークなし）でこのポートフォリオサイトをゼロから設計・開発。パララックスビデオ、言語切替、さくら、カスタムカーソル、エフェクトトグル。生きたポートフォリオであり、純フロントエンドのラボ。</p>",
+    "northmine": "<p>Minecraft サーバープロジェクト <strong>northmine.ru</strong> で開発者として稼働。サーバースクリプト、設定、小さなプラグイン。プロダクションに出したあと <em>noxyrium</em> へ移行。</p>",
+    "maya": "<p>現在 <strong>Autodesk Maya</strong> を Blender と After Effects に並ぶ3つ目の 3D パッケージとして勉強中。産業標準のリギング、キャラクターアニメーション、スタジオパイプラインに焦点。3D ポートフォリオがプロのワークフロー出荷できることを目指す。</p>",
+    "ta": "<p><strong>Unity、Maya、Blender</strong> を横断する <strong>テクニカルアーティスト</strong> を目指して勉強中。<strong>GLSL と HLSL</strong> でカスタムシェーダーを書き、レンダーパイプラインを構築し、<strong>Maya の Python スクリプト</strong>と <strong>Blender アドオン</strong>(geometry nodes、bpy、アセットのバッチ処理、エクスポートパイプライン)で反復作業を自動化。コードとアートの橋、そして誰も手作業でクリックしたくない退屈な部分。</p>",
+    "noxyrium": "<p><strong>Noxyrium</strong> のテクニカルディレクター - 開発中のアトモスフィアな Minecraft サーバー。完全なテクニカルビジョン: サーバーアーキテクチャ、性能最適化、カスタムプラグイン、インフラ。テクニカルチームをコーディネート。</p>"
+  },
+  "projects": {
+    "flourite": {
+      "title": "Flourite",
+      "desc": "アークナイツ:エンドフィールド — Flouriteを詳細なSteamループに。ペインティングフィールド上の動くイラスト。",
+      "tag": "アニメーション",
+      "kanji": "剣",
+      "status": "live",
+      "video": "portfolio/sfrayss_1.webm",
+      "task": "Flouriteの動的なSteamループを構築 — 静止画に揺らぎを加えたものではなく、詳細なキャラクターアニメーション。",
+      "steps": [
+        "プリプロダクション:クライアントアートを多数のパーツに分割。カット後:68レイヤー。",
+        "アニメーション & FX:身体と布のキーフレーム、フレームの乱気流、ループを保持するブラーとグロー。",
+        "ポスト:カラー、グレイン、グロー、最終レンダー — 端をクリップせずに書き出し。"
+      ],
+      "problem": "コンポが重すぎた:1つのタイムラインにエフェクトが多すぎ、迷子になる名前のないレイヤーが多すぎ。",
+      "takeaway": "まず構造。レイヤーとプリコンプに名前を付ける。作業を分割する。クリーンに書き出し、切り取られたパーツなし。"
+    },
+    "toji": {
+      "title": "Toji アバター",
+      "desc": "個人用ソーシャルアバター — クールブルーとネオン、キャラクター構図。",
+      "tag": "デザイン",
+      "kanji": "冷",
+      "status": "live",
+      "image": "portfolio/toji.webp",
+      "task": "印象的なソーシャルアバターを作成:キャラクターを切り抜き、新しい背景に統合し、ライティング、オーバーレイ、クールブルーのパレットで雰囲気を加える。",
+      "steps": [
+        "キャラクターを抽出し、エッジをクリーンアップ",
+        "暗いテック系の背景とマッチング",
+        "カスタムライティング、グロー、オーバーレイ、カラーグレーディング(クールブルー)",
+        "最終コントラストとシャープ化パス"
+      ],
+      "problem": "切り抜き後、髪にアーティファクトとフリンジが残っていた。背景とオーバーレイの組み合わせ探しに何度かイテレーションが必要だった。",
+      "takeaway": "重いエフェクトを追加する前に、必ず髪のクリーンアップとエッジの精緻化に余分な時間をかける。良いライティングは小さな欠点を隠せるが、クリーンなエッジの方が重要。"
+    },
+    "tojil2d": {
+      "title": "Toji Live2D",
+      "desc": "Live2Dアニメーション進行中 — Toji Fushiguroのリグとモーション。GFXアバターとは別。",
+      "tag": "Live2D",
+      "kanji": "動",
+      "status": "wip"
+    },
+    "greenvert": {
+      "title": "Zani フォン",
+      "desc": "縦型キャラクターポスター — 毒々しいグリーン。",
+      "tag": "デザイン",
+      "kanji": "緑",
+      "status": "live",
+      "image": "portfolio/backgroundPfone3.webp",
+      "task": "強いグリーン色彩、エネルギー効果、明確なキャラクター焦点を持つ縦長の作品を構築(スマホ壁紙/ポスター形式)。",
+      "steps": [
+        "キャラクター配置とポーズ",
+        "ヘビーなグリーンカラーグレーディングとフォグ/スモークの雰囲気",
+        "パーティクル、グロー、背景シンボルを追加",
+        "最終的なライトラップとコントラスト"
+      ],
+      "problem": "光レイヤーが強すぎ、肌と脚が露出(白飛び)してしまった。",
+      "takeaway": "ハイライトは早めに制御。純粋な白グロー積み重ねではなく、カーブまたは選択的ライトを使う。"
+    },
+    "banner": {
+      "title": "ZAZARY バナー",
+      "desc": "ワイドなテック/サイバーバナー、キャラクターとカスタムタイポグラフィ付き。",
+      "tag": "デザイン",
+      "kanji": "旗",
+      "status": "live",
+      "image": "portfolio/banner.webp",
+      "task": "白黒テック系美学、強いブランディング、キャラクター存在感を持つクリーンなワイドバナー(ヘッダースタイル)をデザイン。",
+      "steps": [
+        "キャラクター切り抜き + 微妙なアウトライン/グロー",
+        "ジオメトリックなテック要素、線、点、グリッド",
+        "カスタムタイポグラフィ処理 (ZAZARY)",
+        "最終構図バランスとソフトな光筋"
+      ],
+      "problem": "キャラクター周りの白いストロークが肩のあたりでやや安っぽく感じた。",
+      "takeaway": "ソフトな光ラップまたは薄いアウターグローは、通常、ハードな破線ストロークよりプレミアムに見える。"
+    },
+    "benim": {
+      "title": "Benimaru アバター",
+      "desc": "ブルーエネルギーキャラ構図。",
+      "tag": "デザイン",
+      "kanji": "蒼",
+      "status": "live",
+      "image": "portfolio/benim.webp",
+      "task": "強いエネルギー効果と明確な焦点を持つ、ダイナミックなブルートーンのキャラ作品を作る。",
+      "steps": [
+        "キャラクター分離",
+        "ブルーライティングとリムライト",
+        "エネルギーオーバーレイ、パーティクル、雰囲気",
+        "カラーグレード + 最終ポリッシュ"
+      ],
+      "problem": "制御しないとエフェクトが簡単にキャラクターを圧倒してしまう。",
+      "takeaway": "顔と上半身を最も読みやすく保つ — エフェクトは被写体を埋めるのではなく、サポートする。"
+    },
+    "gojo": {
+      "title": "Gojo アバター",
+      "desc": "正方形アバター/プロフィールピース — クロームタイポ + パープルの魔法の雰囲気。",
+      "tag": "デザイン",
+      "kanji": "紫",
+      "status": "live",
+      "image": "portfolio/gojos2.webp",
+      "task": "スタイリッシュなクロームレタリングと豊かなパープルライティングで、プレミアムな正方形構図を作成。",
+      "steps": [
+        "キャラクター配置とライティング",
+        "キャラクター背後のクローム風テキスト",
+        "パープルエネルギー、グロー、パーティクル、フローラル要素",
+        "最終カラーグレードとビネット"
+      ],
+      "problem": "頭の後ろの ZAZARY テキストが読みづらくなった。",
+      "takeaway": "キャラクターの後ろに大きな文字を置くときは、シフトするか、戦略的に不透明度を下げるか、微妙な暗いカード/影を追加してブランドが読めるようにする。"
+    },
+    "quest": {
+      "title": "Quest 3",
+      "desc": "プロダクトキービジュアル — Meta Quest 3ヘッドセットとコントローラー。",
+      "tag": "3D",
+      "kanji": "品",
+      "status": "live",
+      "image": "portfolio/quest323.webp",
+      "task": "浮遊するコントローラー、六角形の台座、強いブルーテック雰囲気でQuest 3のクリーンでプレミアムな製品ショットを作成。テキストなし、純粋なビジュアルフォーカス。",
+      "steps": [
+        "製品配置とライティングセットアップ",
+        "六角形台座 + 円形ネオンベース",
+        "コントローラー配置とリムライト",
+        "ダークブルー環境、グロー、反射、最終カラーグレード"
+      ],
+      "problem": "旧バージョンにロシア語の特徴解説があった(ソースファイルが消失)。テキストなしのクリーンなバージョンを再構築する必要があった。",
+      "takeaway": "常に階層化されたソースを保管する。テキストのない強い製品ビジュアルはより柔軟 — どんな言語でも機能し、後でEN/RUテキストオーバーレイを追加できる。"
+    },
+    "goo": {
+      "title": "スタイライズドワールド",
+      "desc": "Goo EngineでBlenderによるスタイライズドワールドを学習 — 見た目、ライティング、ペインテッド3D空間。",
+      "tag": "3D",
+      "kanji": "界",
+      "status": "wip"
+    },
+    "chars": {
+      "title": "アニメフォーム",
+      "desc": "アニメキャラのモデリングを開始:構造、ボリューム、トポロジー。Goo EngineとUnityがペインテッド感を保持するスタイリングシェーディング。",
+      "tag": "3D",
+      "kanji": "形",
+      "status": "wip"
+    },
+    "noxyrium": {
+      "title": "Noxyrium アイデンティティ",
+      "desc": "Noxyriumのブランドシステム、バナー、サーバーGFX。プロジェクトビジュアル言語 — 鍛えられ続けている。",
+      "tag": "GFX",
+      "kanji": "画",
+      "status": "wip"
+    },
+    "forge": {
+      "title": "Forge MDK 1.20.1",
+      "desc": "接続の両側(クライアントとサーバー)にあるMinecraft Forge 1.20.1 MOD。アーキテクチャ、同期、ゲームプレイシステム。進行中。",
+      "tag": "Mod",
+      "kanji": "模",
+      "status": "wip"
+    },
+    "shaders": {
+      "title": "シェーダーノート",
+      "desc": "リアルタイムシェーダースケッチ。GLSL現在;HLSL次。",
+      "tag": "3D",
+      "kanji": "光",
+      "status": "queued"
+    },
+    "maya": {
+      "title": "Mayaを学习中",
+      "desc": "ロードマップ:3Dモデリング、アニメーション、リギング。スタジオでのプロダクション作業に向けて準備中。",
+      "tag": "3D",
+      "kanji": "学",
+      "status": "queued"
+    },
+    "anime": {
+      "title": "アニメスタイル",
+      "desc": "アニメスタイルでイラストを学習中 — 解剖学、ジェスチャー、色彩、スタイル化。Clip Studio Paintで作業。",
+      "tag": "イラスト"
+    },
+    "aecompose": {
+      "title": "AE合成",
+      "desc": "アニメ作品用のAfter Effects合成を学習中 — レイヤー、マスク、イージング、音同期。待機中 — まだ公開されていません。",
+      "tag": "モーション"
+    }
+  },
+  "projectsCount": 16,
+  "experienceSummary": "これまでの歩み",
+  "experienceCollapsed": "クリックで展開",
+  "experienceExpanded": "折りたたむ",
+  "closeMenu": "メニューを閉じる",
+  "experienceSortLabel": "並び順を切り替え (古い順 / 新しい順)",
+  "sortAsc": "古い順",
+  "sortDesc": "新しい順"
+}
