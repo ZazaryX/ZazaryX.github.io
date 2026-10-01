@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex, follow">
+<meta name="theme-color" content="#050508">
+<meta name="color-scheme" content="dark">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline';">
+<title>404 — Zazary</title>
+<style>
+:root { color-scheme: dark; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { background: #050508; }
+body {
+    min-height: 100vh;
+    min-height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background:
+        radial-gradient(720px 620px at -10% 28%, rgba(135, 145, 175, 0.05), transparent 68%),
+        radial-gradient(680px 640px at 110% 72%, rgba(145, 125, 155, 0.045), transparent 70%),
+        linear-gradient(135deg, #050508 0%, #0a0a0f 100%);
+    color: #d0d0d0;
+    font-family: 'Rajdhani', 'Noto Sans JP', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.wrap {
+    position: relative;
+    text-align: center;
+    padding: 48px 56px 44px;
+    max-width: 460px;
+    width: 100%;
+}
+.kanji {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -54%);
+    font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+    font-size: clamp(9rem, 34vw, 13rem);
+    font-weight: 700;
+    color: rgba(200, 200, 208, 0.05);
+    pointer-events: none;
+    user-select: none;
+}
+.kicker {
+    font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: rgba(220, 220, 228, 0.55);
+    margin-bottom: 22px;
+}
+.code {
+    font-size: clamp(4.5rem, 20vw, 7rem);
+    font-weight: 800;
+    line-height: 1.02;
+    letter-spacing: 0.06em;
+    color: #fff;
+    background: linear-gradient(180deg, #ffffff, #9a9aa8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 42px rgba(255, 255, 255, 0.16);
+}
+.rule {
+    width: 56px;
+    height: 1px;
+    margin: 28px auto 18px;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.8), transparent);
+}
+.text {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    letter-spacing: 0.04em;
+    color: rgba(220, 220, 228, 0.72);
+}
+.text .ru { display: block; margin-top: 4px; color: rgba(200, 200, 208, 0.45); font-size: 0.95rem; }
+.cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 34px;
+    padding: 14px 30px;
+    min-height: 48px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid rgba(200, 200, 208, 0.4);
+    border-radius: 999px;
+    background: #0a0a0f;
+    font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.cta:hover, .cta:focus-visible {
+    border-color: rgba(200, 200, 208, 0.7);
+    box-shadow: 0 0 18px rgba(255, 255, 255, 0.14);
+    outline: none;
+}
+.cta:focus-visible { outline: 2px solid rgba(255, 255, 255, 0.7); outline-offset: 3px; }
+.bracket { color: rgba(200, 200, 208, 0.35); }
+.cta:hover .bracket, .cta:focus-visible .bracket { color: rgba(255, 255, 255, 0.8); }
+@media (max-width: 480px) {
+    .wrap { padding: 36px 20px 32px; }
+    .cta { padding: 12px 22px; font-size: 0.75rem; }
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+    <div class="kanji" aria-hidden="true">界</div>
+    <p class="kicker">Zazary Realm</p>
+    <p class="code" aria-label="Error 404">404</p>
+    <div class="rule" aria-hidden="true"></div>
+    <p class="text">this page slipped out of the realm.
+        <span class="ru" lang="ru">такой страницы нет — но мастер всё ещё здесь.</span>
+    </p>
+    <a class="cta" href="/"><span class="bracket" aria-hidden="true">[</span> back to realm <span class="bracket" aria-hidden="true">]</span></a>
+</main>
+</body>
+</html>

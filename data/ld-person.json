@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Artyom (Zazary)",
+  "alternateName": "Zazary",
+  "url": "https://zazaryx.github.io/",
+  "image": "https://zazaryx.github.io/og.png",
+  "jobTitle": "Developer, Artist, Technical Director",
+  "description": "Developer, artist, and technical director working across 2D/3D animation, GFX, design, and systems programming.",
+  "knowsAbout": ["C++", "C#", "Python", "OpenGL", "GLSL", "Reverse engineering", "Blender", "After Effects", "Photoshop", "Minecraft modding", "Live2D", "Goo Engine"],
+  "sameAs": [
+    "https://github.com/ZazaryX",
+    "https://t.me/ZazaryXS",
+    "https://discord.com/users/zazaryxs"
+  ]
+}

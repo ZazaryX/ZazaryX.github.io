@@ -1,0 +1,10 @@
+/* no-js fallback: hide interactive/effect-only elements */
+#preloader { display: none; }
+.sakura { display: none; }
+.cursor { display: none; }
+.parallax, .video-layer-1, .video-layer-2, .video-layer-3 { display: none; }
+#particles { display: none; }
+.fx-panel { display: none; }
+.optimize-overlay { display: none; }
+.reveal { opacity: 1 !important; transform: none !important; }
+body { padding-top: 0 !important; }
