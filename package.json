@@ -1,0 +1,14 @@
+{
+  "name": "zazaryx-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "zazaryx.github.io - static portfolio, no framework",
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "check": "node tools/build.mjs --check"
+  },
+  "devDependencies": {
+    "terser": "^5.36.0"
+  }
+}

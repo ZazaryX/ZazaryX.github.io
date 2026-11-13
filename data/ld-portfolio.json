@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Zazary - portfolio",
+  "numberOfItems": 9,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "CreativeWork",
+        "name": "Flourite",
+        "url": "https://zazaryx.github.io/#work-flourite",
+        "dateCreated": "2026-05"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "CreativeWork",
+        "name": "Makima Avatar GFX",
+        "url": "https://zazaryx.github.io/#work-makima",
+        "dateCreated": "2026-09"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "CreativeWork",
+        "name": "Toji Avatar GFX",
+        "url": "https://zazaryx.github.io/#work-toji",
+        "dateCreated": "2025-12"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "CreativeWork",
+        "name": "Zani Avatar GFX",
+        "url": "https://zazaryx.github.io/#work-greenvert",
+        "dateCreated": "2025-12"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "CreativeWork",
+        "name": "Gabimaru Banner GFX",
+        "url": "https://zazaryx.github.io/#work-banner",
+        "dateCreated": "2025-08"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "CreativeWork",
+        "name": "Benimaru Avatar GFX",
+        "url": "https://zazaryx.github.io/#work-benim",
+        "dateCreated": "2026-03"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "CreativeWork",
+        "name": "Gojo Avatar GFX",
+        "url": "https://zazaryx.github.io/#work-gojo",
+        "dateCreated": "2025-10"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "CreativeWork",
+        "name": "Quest 3",
+        "url": "https://zazaryx.github.io/#work-quest",
+        "dateCreated": "2026-01"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "CreativeWork",
+        "name": "Evelyn · Full Render",
+        "url": "https://zazaryx.github.io/#work-evelyn",
+        "dateCreated": "2026-11",
+        "creativeWorkStatus": "InProgress"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "CreativeWork",
+        "name": "Gojo Bot Avatar",
+        "url": "https://zazaryx.github.io/#work-gojobot",
+        "dateCreated": "2026-11"
+      }
+    }
+  ]
+}
